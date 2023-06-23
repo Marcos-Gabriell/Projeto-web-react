@@ -94,7 +94,7 @@ const MySection = () => {
             <div className="image-container2">
               <img src={logoImg9} alt="Imagem" />
               <div className="image-caption">
-                <h4 className="text-center" style={{ color: '#3399CC' }}>Consultoria para ICTs e Universidades</h4>
+                <h4 className="text-center" style={{ color: '#3399CC' }}>Consultoria para<br/> ICTs e Universidades</h4>
                 <p className="text-center text-wrap">As Universidades podem desenvolver projetos de pesquisa, desenvolvimento e inovação em parceria com empresas beneficiárias dos incentivos fiscais federais, através da Lei do Bem, Lei de Informática e Rota 2030.</p>
               </div>
             </div>
@@ -104,7 +104,7 @@ const MySection = () => {
 
           {/* Restante dos blocos de serviço */}
         </div>
-      </div>
+      </div><br/><br/>
     </section>
   );
 }

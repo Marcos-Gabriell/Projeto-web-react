@@ -1,6 +1,6 @@
 .my-section {
   background-color: #ffffff;
-  padding: 20px;
+  padding: 30px;
 }
 
 /* Estilos CSS para o conteúdo da seção */
@@ -28,7 +28,7 @@
   margin: 10px;
   border: 2px solid #fff;
   transition: transform 0.3s ease;
-  width: calc(60.33% - 35px);
+  width: calc(33.33% - 35px);
   max-width: 250px;
   text-align: center;
   filter: grayscale(0%);
@@ -61,35 +61,35 @@
   padding: 10px;
 }
 
+
+
 .image-container2 img {
   width: 100%;
   height: auto;
   border-radius: 0px;
   transition: filter 0.3s ease;
+  max-width: 300px; /* Ajuste este valor para aumentar o tamanho da imagem */
+  max-height: 300px; /* Ajuste este valor para aumentar o tamanho da imagem */
 }
+
+
+
 
 .image-container2:hover img {
   filter: grayscale(100%);
 }
 
-
 .image-caption h4 {
   color: #3399CC;
-  font-size: 19px;
+  font-size: 15px;
+  text-align: left;
 }
-
 .line {
   border: none;
   border-top: 2px solid #000; 
   margin: 2% auto; 
-  width: 60%; 
-}
-
-.text {
-  color: #083052;
-  text-align: center; 
-  font-size: 20px;
-  font-family: 'Roboto', sans-serif;
+  width: 80%; /* Aumente este valor para aumentar a largura da linha */
+  text-align: left;
 }
 
 @media (max-width: 600px) {
@@ -98,6 +98,22 @@
   }
 }
 
-.caption-title {
-  font-size: 20px; 
+
+.text {
+  color: #083052;
+  text-align: center; 
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+}
+
+@media (max-width: 768px) {
+  .image-container2 {
+    width: calc(50% - 35px);
+  }
+}
+
+@media (max-width: 480px) {
+  .image-container2 {
+    width: calc(100% - 35px);
+  }
 }
