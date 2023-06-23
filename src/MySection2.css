@@ -1,0 +1,19 @@
+.line {
+    border: none;
+    border-top: 2px solid #083052; /* Espessura e cor da linha preta */
+    margin: 2% auto; /* Centraliza as linhas horizontalmente e adiciona espaçamento */
+    width: 25%; /* Define a largura das linhas */
+  }
+
+  .text {
+    color: #083052;
+    text-align: center; /* Centraliza o texto */
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  @media (max-width: 600px) {
+    .line {
+      width: 100%; /* Reduz a largura das linhas em dispositivos com largura máxima de 600px */
+    }
+  }
