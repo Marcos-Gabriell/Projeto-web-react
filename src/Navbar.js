@@ -1,7 +1,8 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.min.js';
 import logoImg from './img/logo2.png';
-import './Navbar.css'; 
+import './Navbar.css';
 
 const Navbar = () => {
   return (
@@ -13,16 +14,17 @@ const Navbar = () => {
           </a>
         </div>
         <button
-           className="navbar-toggler"
-           type="button"
-           data-bs-toggle="collapse"
-           data-bs-target="#navbarNavDropdown"
-           aria-controls="navbarNavDropdown"
-           aria-expanded="false"
-           aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
+  className="navbar-toggler"
+  type="button"
+  data-bs-toggle="collapse"
+  data-bs-target="#navbarNavDropdown"
+  aria-controls="navbarNavDropdown"
+  aria-expanded="false"
+  aria-label="Toggle navigation"
+>
+  <span className="navbar-toggler-icon"></span>
+</button>
+
         <div className="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
           <ul className="navbar-nav">
             <li className="nav-item active">
@@ -89,6 +91,6 @@ const Navbar = () => {
       </div>
     </nav>
   );
-}
+};
 
 export default Navbar;
