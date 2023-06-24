@@ -10,7 +10,7 @@ const Navbar = () => {
       <div className="container-fluid">
         <div className="navbar-brand-divider">
           <a className="navbar-brand" href="#">
-            <img src={logoImg} alt="Descrição da Imagem" style={{ width: '300px' }} />
+            <img src={logoImg} alt="Descrição da Imagem" style={{ width: '200px' }} />
           </a>
         </div>
         <button
