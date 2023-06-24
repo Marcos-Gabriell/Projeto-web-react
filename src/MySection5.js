@@ -1,7 +1,27 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './MySection5.css';
 
 function MySection5() {
+  useEffect(() => {
+    function updateLayout() {
+      if (window.innerWidth < 600) {
+        document.querySelector('.section-container').classList.add('responsive');
+      } else {
+        document.querySelector('.section-container').classList.remove('responsive');
+      }
+    }
+
+    window.addEventListener('resize', updateLayout);
+    // Chame a função updateLayout ao carregar a página também, para garantir que o layout esteja correto inicialmente
+    window.addEventListener('load', updateLayout);
+
+    // Remova os event listeners quando o componente for desmontado
+    return () => {
+      window.removeEventListener('resize', updateLayout);
+      window.removeEventListener('load', updateLayout);
+    };
+  }, []);
+
   return (
     <section className="section-container">
       <div className="subsection">
@@ -19,7 +39,6 @@ function MySection5() {
       <div className="subsection">
         <h2>ATUAÇÃO</h2>
         <p>Participamos de forma contributiva do ecossistema de inovação.</p>
-
       </div>
       <div className="subsection">
         <h2>CONHECIMENTO</h2>

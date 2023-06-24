@@ -1,41 +1,56 @@
+/* Estilos padrão da navbar */
 .navbar {
   background-color: #f8f9fa;
-  height: 130px; /* Aumenta a altura da navbar para 80px */
+  height: 130px; /* Aumenta a altura da navbar para 130px */
 }
 
-/* Restante do seu código CSS */
+.navbar-nav .nav-link {
+  color: #333; 
+}
 
-  
-  .navbar-nav .nav-link {
-    color: #333; 
-  }
-  
-  .navbar-logo {
-    width: 500px; 
-    height: auto;
-    padding: 20px;
-  }
-  .navbar-brand-divider {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end; 
-    text-align: center;
+.navbar-logo {
+  width: 500px; 
+  height: auto;
+  padding: 20px;
+}
+
+.navbar-brand-divider {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; 
+  text-align: center;
+}
+
+.navbar-brand-divider .navbar-brand {
+  font-size: 24px;
+  color: #3399CC;
+}
+
+.navbar-brand-divider .navbar-subtext {
+  margin-top: 5px;
+  color: #3399CC; 
+}
+
+.navbar-nav .nav-link {
+  color: #101b4e;
+  font-size: 30px;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+  .navbar {
+    height: auto; /* Remove a altura fixa para se ajustar ao conteúdo */
   }
 
   .navbar-brand-divider .navbar-brand {
-    font-size: 24px;
-    color: #3399CC;
+    font-size: 18px; /* Reduz o tamanho da fonte do título em telas pequenas */
   }
 
   .navbar-brand-divider .navbar-subtext {
-    margin-top: 5px;
-    color: #3399CC; 
+    margin-top: 3px; /* Reduz a margem superior do subtexto em telas pequenas */
   }
 
   .navbar-nav .nav-link {
-    color: #101b4e;
-    font-size: 30px;
+    font-size: 20px; /* Reduz o tamanho da fonte dos links em telas pequenas */
   }
-  
- 
-  
+}
