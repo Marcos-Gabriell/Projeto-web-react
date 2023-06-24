@@ -1,0 +1,27 @@
+.section-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 250px;
+  }
+  
+  .subsection {
+    flex-basis: 25%;
+    margin-bottom: 20px;
+  }
+  
+  .subsection h2 {
+    font-size: 25px;
+    font-weight: bold;
+    color: #0c1053;
+    text-align: center;
+    margin-bottom: 10px; /* Adiciona espaçamento entre cada h2 */
+  }
+  
+  .subsection p {
+    font-size: 20px;
+    color: #2259a0;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
