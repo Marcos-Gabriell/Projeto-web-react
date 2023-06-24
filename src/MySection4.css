@@ -1,0 +1,82 @@
+.quemsomos {
+    background-color: rgb(171, 172, 172);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .quemsomos h1 {
+    font-size: 40px;
+    color: #022646;
+    margin: 0;
+    padding: 10px;
+  }
+  
+  .quemsomos div {
+    margin-top: 20px;
+  }
+  
+  .quemsomos h2 {
+    font-size: 30px;
+    color: #083972;
+    margin: 0;
+  }
+  
+  .quemsomos h3 {
+    font-size: 25px;
+    color: #083972;
+    margin: 0;
+    padding-bottom: 20px;
+  }
+  
+  .saiba-mais-btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: transparent;
+    color: #083972;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid #083972;
+  }
+  
+  .saiba-mais-btn:hover {
+    background-color: #012657;
+    color: aliceblue;
+  }
+  
+  @media (min-width: 768px) {
+    .quemsomos {
+      flex-direction: row;
+      align-items: flex-start;
+      text-align: left;
+      padding: 100px 0;
+    }
+  
+    .quemsomos div {
+      margin-top: 0;
+      margin-left: 20px;
+    }
+  
+    .quemsomos h1 {
+      font-size: 60px;
+    }
+  
+    .quemsomos h2 {
+      font-size: 40px;
+    }
+  
+    .quemsomos h3 {
+      font-size: 30px;
+    }
+  
+    .saiba-mais-btn {
+      font-size: 20px;
+      padding: 15px 30px;
+    }
+  }
+  
