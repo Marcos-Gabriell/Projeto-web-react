@@ -8,7 +8,7 @@ function MySection3() {
       <img src={logoImg} alt="Imagem de informações" />
       <div className="info-overlay">
         <div className="info-box">
-          <h4>ALGUNS FATOS SOBRE O NOSSO TRABALHO</h4>
+          <h4><br/>ALGUNS FATOS SOBRE O NOSSO TRABALHO</h4>
           <div className="fact-container">
             <div className="fact">
               <span className="fact-number">752</span><br/>

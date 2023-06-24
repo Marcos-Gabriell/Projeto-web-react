@@ -70,7 +70,7 @@
   
   @media (max-width: 768px) {
     .info-image img {
-      height: 80vh; /* Ajuste a altura desejada para telas menores */
+      height: 110vh; /* Ajuste a altura desejada para telas menores */
     }
   
     .info-box {
