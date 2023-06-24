@@ -70,27 +70,27 @@
   
   @media (max-width: 768px) {
     .info-image img {
-      height: 110vh; /* Ajuste a altura desejada para telas menores */
+      height: 130vh; /* Ajuste a altura desejada para telas menores */
     }
   
     .info-box {
-      padding: 10px;
+      padding: 5px;
     }
   
     .fact-label {
-      font-size: 16px;
-      margin-top: 5px;
+      font-size: 14px;
+      margin-top: 2px;
     }
   
     .fact {
       flex: 0 0 50%; /* Altere o valor conforme desejado para ajustar o número de itens por linha */
-      margin: 10px 0;
+      margin: 5px 0;
     }
   }
   
   @media (max-width: 480px) {
     .info-image {
-      padding-bottom: 100%; /* Proporção quadrada */
+      padding-bottom: 150%; /* Proporção quadrada */
     }
   
     .info-box {
@@ -98,18 +98,18 @@
     }
   
     .fact-number {
-      font-size: 28px;
+      font-size: 24px;
     }
   
     .fact-label {
-      font-size: 14px;
-      margin-top: 3px;
+      font-size: 12px;
+      margin-top: 1px;
     }
   
     .fact-container {
       flex-direction: column;
       align-items: center;
-      margin-top: 10px;
+      margin-top: 5px;
     }
   
     .fact {
