@@ -53,4 +53,8 @@
   .navbar-nav .nav-link {
     font-size: 20px; /* Reduz o tamanho da fonte dos links em telas pequenas */
   }
+  .navbar-logo {
+    width: 200px; /* Reduz a largura da imagem em telas menores */
+    padding: 10px; /* Reduz o espaçamento interno da imagem em telas menores */
+  }
 }
