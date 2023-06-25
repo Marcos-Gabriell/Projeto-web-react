@@ -9,7 +9,7 @@ const ImageContainer = () => {
       <div className="overlay">
         <h2></h2>
         <p className="image-text">
-          SOMOS UMA CONSULTORIA QUE HÁ MAIS DE 25 ANOS VIABILIZA A INOVAÇÃO<br/> 
+           SOMOS UMA CONSULTORIA QUE HÁ MAIS DE 25 ANOS VIABILIZA A INOVAÇÃO<br/> 
            NAS EMPRESAS ATRAVÉS DE INCENTIVOS FISCAIS  E FOMENTO À INOVAÇÃO<br />
            TECNOLÓGICA, SEMPRE COM RESPONSABILIDADE, ÉTICA E TRANSPARÊNCIA.
         </p>
