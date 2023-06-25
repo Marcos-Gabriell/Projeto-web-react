@@ -8,6 +8,7 @@ import MySection4 from './MySection4';
 import MySection5 from './MySection5';
 import SeparatorLine from './SeparatorLine';
 import MyBlog from './MyBlog';
+import MyCadastro from './MyCadastro';
 
 
 const Home = () => {
@@ -22,6 +23,7 @@ const Home = () => {
       <MySection5 />
       <SeparatorLine />
       <MyBlog />
+      <MyCadastro />
       {/* Restante do conteúdo da página Home */}
     </div>
   );
