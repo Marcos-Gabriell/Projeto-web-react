@@ -1,0 +1,32 @@
+.lojas-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #0a212b;
+    padding: 70px;
+  }
+  
+  .loja {
+    color: #ececec;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px;
+  }
+  
+  .loja-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .loja span {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .loja p {
+    margin: 0;
+  }
+  

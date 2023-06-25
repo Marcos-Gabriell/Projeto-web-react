@@ -49,8 +49,8 @@ const MyCadastro = () => {
           Ao informar meus dados, eu concordo com a Política de Privacidade.
         </label>
         <br />
-        <button type="submit">Cadastrar</button>
-      </form>
+        <button type="submit">Cadastrar</button><br/><br/>
+      </form><br/><br/><br/><br/>
     </div>
   );
 };
