@@ -1,9 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import logoImg from './img/logo2.png';
 import './Navbar.css';
-
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top">
@@ -27,11 +27,12 @@ const Navbar = () => {
 
         <div className="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
           <ul className="navbar-nav">
-            <li className="nav-item active">
-              <a className="nav-link" href="#">
-                HOME <span className="visually-hidden">(Página atual)</span>
-              </a>
-            </li>
+          <li className="nav-item active">
+            <a className="nav-link" to="/home">
+             HOME <span className="visually-hidden">(Página atual)</span>
+           </a>
+          </li>
+
             <li className="nav-item">
               <a className="nav-link" href="#">
                 A ROCHA MARQUES
