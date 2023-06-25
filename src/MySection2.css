@@ -1,19 +1,25 @@
 .line {
-    border: none;
-    border-top: 2px solid #083052; /* Espessura e cor da linha preta */
-    margin: 2% auto; /* Centraliza as linhas horizontalmente e adiciona espaçamento */
-    width: 25%; /* Define a largura das linhas */
-  }
+  border: none;
+  border-top: 2px solid #00060a; /* Espessura e cor da linha preta */
+  margin: 2% auto; /* Centraliza as linhas horizontalmente e adiciona espaçamento */
+  width: 20%; /* Define a largura das linhas */
+  max-width: 75vh; /* Define uma largura máxima para a linha */
+}
 
+.text {
+  color: #083052;
+  text-align: center; /* Centraliza o texto */
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 10px; /* Adiciona um espaço de 10 pixels acima do texto */
+}
+
+@media (max-width: 600px) {
+  .line {
+    width: 100%; /* Reduz a largura das linhas em dispositivos com largura máxima de 600px */
+    max-width: 100%; /* Define uma largura máxima de 100% para a linha em dispositivos com largura máxima de 600px */
+  }
   .text {
-    color: #083052;
-    text-align: center; /* Centraliza o texto */
-    font-size: 20px;
-    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
   }
-
-  @media (max-width: 600px) {
-    .line {
-      width: 100%; /* Reduz a largura das linhas em dispositivos com largura máxima de 600px */
-    }
-  }
+}
