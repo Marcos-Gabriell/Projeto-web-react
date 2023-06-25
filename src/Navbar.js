@@ -28,7 +28,7 @@ const Navbar = () => {
         <div className="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
           <ul className="navbar-nav">
           <li className="nav-item active">
-            <a className="nav-link" to="/home">
+            <a className="nav-link" href="#">
              HOME <span className="visually-hidden">(Página atual)</span>
            </a>
           </li>
