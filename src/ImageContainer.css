@@ -37,7 +37,7 @@
   background-color: #fff; 
   color: #1a1a1a;
   border: none;
-  border-radius: 5px;
+  border-radius: 0px;
   text-decoration: none;
   transition: background-color 0.3s ease-in-out; 
 }
@@ -47,7 +47,7 @@
 }
 
 .image-container .overlay .image-text {
-  font-size: 2vw; 
+  font-size: 3.5vw; 
   margin-bottom: 15px; 
   font-weight: bold; 
   color: white; 
