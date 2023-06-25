@@ -34,20 +34,17 @@ const MyCadastro = () => {
       <h2>Cadastre-se e fique informado sobre as oportunidades para inovar através dos incentivos fiscais e fomentos!</h2>
       <form onSubmit={handleSubmit}>
         <label>
-          Nome:
-          <input type="text" value={nome} onChange={handleNomeChange} />
+          <input type="text" value={nome} placeholder='Nome completo' onChange={handleNomeChange} />
         </label>
         <br />
         <label>
-          Email:
-          <input type="email" value={email} onChange={handleEmailChange} />
+          <input type="email" value={email} placeholder='E-mail' onChange={handleEmailChange} />
         </label>
         <br />
         <label>
           <input type="checkbox" checked={concordo} onChange={handleConcordoChange} />
           Concordo em receber comunicações.
         </label>
-        <br />
         <label>
           Ao informar meus dados, eu concordo com a Política de Privacidade.
         </label>
