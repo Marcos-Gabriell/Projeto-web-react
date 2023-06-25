@@ -1,8 +1,10 @@
 .section-container {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 250px;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    padding: 300px;
+    flex-wrap: wrap; /* Adicionado o flex-wrap ao contêiner */
+    text-align: center;
   }
   
   .subsection {
@@ -15,7 +17,7 @@
     font-weight: bold;
     color: #0c1053;
     text-align: center;
-    margin-bottom: 10px; /* Adiciona espaçamento entre cada h2 */
+    margin-bottom: 10px;
   }
   
   .subsection p {
