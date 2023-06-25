@@ -9,7 +9,7 @@
 
 .subsection {
   flex-basis: 20%;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   margin-left: auto; /* Adicionado margem automática à esquerda */
   margin-right: auto; /* Adicionado margem automática à direita */
 }
