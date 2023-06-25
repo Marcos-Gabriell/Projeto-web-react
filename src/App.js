@@ -1,6 +1,6 @@
 // App.js (página principal)
 import React from 'react';
-import Home from './Home';
+import Home from './Home'; 
 
 const App = () => {
   return (
