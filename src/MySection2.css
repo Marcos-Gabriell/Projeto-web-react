@@ -20,6 +20,6 @@
     max-width: 100%; /* Define uma largura máxima de 100% para a linha em dispositivos com largura máxima de 600px */
   }
   .text {
-    font-size: 10px;
+    font-size: 20px;
   }
 }

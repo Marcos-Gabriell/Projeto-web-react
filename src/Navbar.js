@@ -35,7 +35,7 @@ const Navbar = () => {
 
             <li className="nav-item">
               <a className="nav-link" href="#">
-                A ROCHA MARQUES
+                A SIGPLANI
               </a>
             </li>
             <li className="nav-item dropdown">
