@@ -4,7 +4,7 @@ import './SeparatorLine.css';
 function line() {
   return (
     <div>
-      <hr className="line" /><br/><br/><br/><br/>
+      <hr className="line2" /><br/><br/><br/><br/>
     </div>
   );
 }

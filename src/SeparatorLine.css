@@ -1,11 +1,11 @@
-.line {
+.line2 {
     border: none;
     border-top: 3px solid #525252; /* Espessura e cor da linha preta */
     margin: 1% auto; /* Centraliza as linhas horizontalmente e adiciona espaçamento */
-    width: 100%; /* Define a largura das linhas */
+    width: auto; /* Define a largura das linhas */
   }
   @media (max-width: 600px) {
-    .line {
+    .line2 {
       width: 100%; /* Reduz a largura das linhas em dispositivos com largura máxima de 600px */
     }
   }
