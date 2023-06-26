@@ -10,7 +10,7 @@ import SeparatorLine from './SeparatorLine';
 import MyBlog from './MyBlog';
 import MyCadastro from './MyCadastro';
 import End from './End';
-
+import Myrodape from './Myrodape';
 
 const Home = () => {
   return (
@@ -26,6 +26,7 @@ const Home = () => {
       <MyBlog />
       <MyCadastro />
       <End />
+      <Myrodape />
       {/* Restante do conteúdo da página Home */}
     </div>
   );
