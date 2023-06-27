@@ -34,13 +34,13 @@
   flex: 1 1 auto;
 }
 
-h2 {
+.container3 h2 {
   font-size: 24px;
   font-weight: bold;
   color: #0d1e36;
 }
 
-p {
+.container3 p {
   font-size: 18px;
   color: rgb(73, 86, 99);
 }
