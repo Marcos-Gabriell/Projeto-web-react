@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { FaFacebook, FaLinkedin, FaInstagram } from 'react-icons/fa';
 import './Myrodape.css';
 
@@ -9,8 +10,8 @@ const Myrodape = () => {
         <div className="rodape-div-1">
           <div className="rodape-div-3-coluna">
             <span><b>NAVEGUE</b></span>
-            <p><a href="#">Home</a></p>
-            <p><a href="#ASIGPLANI">ASIGPLANI</a></p>
+            <p><Link to="/">Home</Link></p>
+            <p><Link to="/a-sigplani">A SIGPLANI</Link></p>
             <p><a href="#Clientes">Clientes</a></p>
             <p><a href="#Conteúdo">Conteúdo</a></p>
             <p><a href="#Contato">Contato</a></p>

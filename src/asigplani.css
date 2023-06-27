@@ -45,6 +45,51 @@
   color: rgb(73, 86, 99);
 }
 
+.container4 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center; /* Centraliza horizontalmente */
+  background-color: #fff;
+  width: 100vw; /* Define a largura como 100% da viewport */
+}
+
+.image-container4 {
+  padding: 30px;
+  flex: 0 0 auto;
+  margin-right: 20px;
+}
+
+.image-container4 img {
+  max-width: 95vh; /* Defina a largura máxima desejada */
+  height: auto; /* Ajusta a altura proporcionalmente */
+}
+
+.text-container4 {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 100px; /* Adiciona uma margem interna aos textos */
+}
+
+.text-container4 h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #0d1e36;
+  margin-bottom: 10px; /* Reduz a margem inferior para aproximar o h2 do p */
+}
+
+.text-container4 p {
+  font-size: 25px;
+  color: rgb(73, 86, 99);
+  margin-top: 0; /* Remove a margem superior para aproximar o p do h2 */
+  margin-bottom: 0; /* Remove a margem inferior para aproximar o p do h2 */
+}
+
+
+
+
 /* Media query para telas menores */
 @media (max-width: 768px) {
   .container3 {
