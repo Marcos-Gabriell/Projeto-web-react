@@ -48,43 +48,64 @@
 .container4 {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
-  justify-content: center; /* Centraliza horizontalmente */
+  justify-content: center;
   background-color: #fff;
-  width: 100vw; /* Define a largura como 100% da viewport */
+  width: 100vw;
 }
 
 .image-container4 {
-  padding: 30px;
-  flex: 0 0 auto;
-  margin-right: 20px;
+  padding: 20px;
+  flex: 0 0 100%;
+  text-align: center;
 }
 
 .image-container4 img {
-  max-width: 95vh; /* Defina a largura máxima desejada */
-  height: auto; /* Ajusta a altura proporcionalmente */
+  max-width: 100%;
+  max-height: 300px;
+  height: auto;
 }
 
 .text-container4 {
-  flex: 1 1 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 100px; /* Adiciona uma margem interna aos textos */
+  padding: 20px;
+  flex: 0 0 100%;
+  text-align: center;
 }
 
 .text-container4 h2 {
   font-size: 30px;
   font-weight: bold;
   color: #0d1e36;
-  margin-bottom: 10px; /* Reduz a margem inferior para aproximar o h2 do p */
+  margin-bottom: 10px;
 }
 
 .text-container4 p {
   font-size: 25px;
   color: rgb(73, 86, 99);
-  margin-top: 0; /* Remove a margem superior para aproximar o p do h2 */
-  margin-bottom: 0; /* Remove a margem inferior para aproximar o p do h2 */
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  .container4 {
+    flex-direction: row;
+  }
+
+  .image-container4 {
+    flex: 0 0 50%;
+    margin-right: 20px;
+  }
+
+  .text-container4 {
+    flex: 0 0 50%;
+    text-align: left;
+  }
+}
+
+@media (max-width: 767px) {
+  .image-container4 {
+    padding: 50px;
+    margin-bottom: 50px; /* Adicione um espaço inferior entre a imagem e os elementos abaixo */
+  }
 }
 
 
