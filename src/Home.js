@@ -15,7 +15,6 @@ import Myrodape from './Myrodape';
 const Home = () => {
   return (
     <div>
-      <Navbar />
       <ImageContainer />
       <MySection />
       <MySection2 />

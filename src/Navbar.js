@@ -9,9 +9,9 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top">
       <div className="container-fluid">
         <div className="navbar-brand-divider">
-          <a className="navbar-brand" href="#">
+          <Link className="navbar-brand"to="/">
             <img src={logoImg} alt="Descrição da Imagem" style={{ width: '200px' }} />
-          </a>
+          </Link>
         </div>
         <button
   className="navbar-toggler"
@@ -25,19 +25,20 @@ const Navbar = () => {
   <span className="navbar-toggler-icon"></span>
 </button>
 
-        <div className="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-          <ul className="navbar-nav">
-          <li className="nav-item active">
-            <a className="nav-link" href="#">
-             HOME <span className="visually-hidden">(Página atual)</span>
-           </a>
-          </li>
-
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                A SIGPLANI
-              </a>
+         <div className="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+            <ul className="navbar-nav">
+              <li className="nav-item">
+              <Link className="nav-link" to="/">
+                HOME
+              </Link>
             </li>
+            <li className="nav-item">
+               <Link className="nav-link" to="/asigplani">
+                    A SIGPLANI
+              </Link>
+            </li>
+
+
             <li className="nav-item dropdown">
               <a
                 className="nav-link dropdown-toggle"
@@ -51,14 +52,14 @@ const Navbar = () => {
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 <li>
-                  <a className="dropdown-item" href="#">
+                  <Link className="dropdown-item" to="/incentivos-fiscias">
                     Incentivos Fiscais
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="dropdown-item" href="#">
+                  <Link className="dropdown-item" to="/Captação-de-Recursos">
                     Captação de Recursos
-                  </a>
+                  </Link>
                 </li>
                 <li>
                   <a className="dropdown-item" href="#">
