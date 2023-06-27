@@ -1,10 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './Home';
-import Teste from './teste';
+import Asigplani from './asigplani';
 import Navbar from './Navbar';
-import IncentivosFiscais from './incentivosfiscais';
-import CaptacaoDeRecursos from './CaptacaoDeRecursos';
+
 
 const App = () => {
   return (
@@ -13,9 +12,7 @@ const App = () => {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/asigplani" element={<Teste />} />
-          <Route path="/incentivosfiscais" element={<IncentivosFiscais />} />
-          <Route path="/captacao-de-recursos" element={<CaptacaoDeRecursos />} />
+          <Route path="/asigplani" element={<Asigplani  />} />
         </Routes>
       </div>
     </Router>

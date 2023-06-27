@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@100&display=swap');
+
+.titulo-principal {
+  padding: 20px;
+  background-color: rgb(30, 62, 110);
+}
+
+.titulo-principal h1 {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #fff;
+}
+
+.container3 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center; /* Centraliza horizontalmente */
+  background-color: rgb(227, 233, 233);
+  width: 100vw; /* Define a largura como 100% da viewport */
+}
+
+.image-container3 {
+  padding: 20px;
+  flex: 0 0 auto;
+  margin-right: 20px;
+}
+
+.image-container3 img {
+  max-width: 75vh; /* Defina a largura máxima desejada */
+  height: auto; /* Ajusta a altura proporcionalmente */
+}
+
+.content-container3 {
+  flex: 1 1 auto;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #0d1e36;
+}
+
+p {
+  font-size: 18px;
+  color: rgb(73, 86, 99);
+}
+
+/* Media query para telas menores */
+@media (max-width: 768px) {
+  .container3 {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+  }
+
+  .image-container3 {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  
+  .image-container3 img {
+    max-width: 100%; /* Ajusta a largura máxima para ocupar todo o espaço disponível */
+  }
+}
