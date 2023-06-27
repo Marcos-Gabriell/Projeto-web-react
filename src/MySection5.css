@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center; /* Centraliza horizontalmente */
   align-items: center; /* Centraliza verticalmente */
-  padding: 300px;
+  padding: 200px;
   flex-wrap: wrap; /* Adicionado o flex-wrap ao contêiner */
   text-align: center;
 }
