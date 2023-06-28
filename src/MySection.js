@@ -20,13 +20,13 @@ const MySection = () => {
         <div className="row">
           <div className="col-md-4 col-12">
             <div className="image-container2">
-            <Link to="/Lei-da-informatica">
               <img src={logoImg} alt="Imagem" />
               <div className="image-caption">
-                <h4 className="text-center" style={{ color: '#3399CC' }}>Lei de Informática</h4>
+              <Link to="/Lei-da-informatica">
+               <h4 className="text-center" style={{ color: '#3399CC' }}>Lei de Informática</h4>
                 <p className="text-center text-wrap">Empresas fabricantes de equipamentos de informática, comunicação e automação podem pleitear créditos financeiros através de investimentos em pesquisa...</p>
-              </div>
               </Link>
+              </div>
             </div>
           </div>
           <div className="col-md-4 col-12">

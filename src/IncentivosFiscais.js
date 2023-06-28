@@ -1,6 +1,7 @@
 import React from 'react';
 import './IncentivosFiscais.css';
 import MyCadastro from './MyCadastro';
+import { Link } from 'react-router-dom';
 import End from './End';
 import Myrodape from './Myrodape';
 import logoImg from './img/infor.png'; 
@@ -18,12 +19,14 @@ function IncentivosFiscais() {
       <section className="my-section"><br/><br/><br/>
       <div className="my-section-content">
         <div className="row">
-          <div className="col-md-4 col-12">
+        <div className="col-md-4 col-12">
             <div className="image-container2">
               <img src={logoImg} alt="Imagem" />
               <div className="image-caption">
-                <h4 className="text-center" style={{ color: '#3399CC' }}>Lei de Informática</h4>
+              <Link to="/Lei-da-informatica">
+               <h4 className="text-center" style={{ color: '#3399CC' }}>Lei de Informática</h4>
                 <p className="text-center text-wrap">Empresas fabricantes de equipamentos de informática, comunicação e automação podem pleitear créditos financeiros através de investimentos em pesquisa...</p>
+              </Link>
               </div>
             </div>
           </div>

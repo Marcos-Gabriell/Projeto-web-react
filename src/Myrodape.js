@@ -22,7 +22,7 @@ const Myrodape = () => {
         <div className="rodape-div-2">
           <div className="rodape-div-3-coluna">
             <span><b>Serviços</b></span>
-            <p><a href="#Lei de informática">Lei de informática</a></p>
+            <p> <Link to="/Lei-da-informatica">Lei de informática</Link></p>
             <p><a href="#Lei de informática - Manaus">Lei de informática - Manaus</a></p>
             <p><a href="#Lei do Bem">Lei do Bem</a></p>
             <p><a href="#Padis">Padis</a></p>
