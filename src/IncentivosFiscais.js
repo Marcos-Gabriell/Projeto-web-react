@@ -8,10 +8,6 @@ import logoImg1 from './img/img1.png';
 import logoImg2 from './img/img2.png'; 
 import logoImg3 from './img/img3.png'; 
 import logoImg4 from './img/img4.png'; 
-import logoImg5 from './img/img5.png'; 
-import logoImg6 from './img/img6.png'; 
-import logoImg7 from './img/img7.png'; 
-import logoImg9 from './img/img9.png'; 
 
 function IncentivosFiscais() {
   return (
