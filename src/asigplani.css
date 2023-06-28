@@ -85,18 +85,27 @@
   color: rgb(73, 86, 99);
 }
 
+
+@media (max-width: 767px) {
+  .image-container4 img {
+    max-width: 100%; /* Reduz a largura máxima para ocupar todo o espaço disponível */
+    height: auto; /* Ajusta a altura proporcionalmente */
+  }
+}
+
 /* Estilos adicionais para telas menores */
 @media (max-width: 767px) {
+
   .container4 {
     justify-content: center; /* Centraliza horizontalmente */
   }
 
   .image-container4 {
-    padding: 30px;
+    padding: 0px;
     margin-top: 20px;
     margin-left: 0;
-    max-width: 100vh; /* Diminui o tamanho do container da imagem em telas menores */
-  }
+    max-width: 100%; /* Diminui o tamanho do container da imagem em telas menores */
+  }  
 
   .text-container4 {
     text-align: center;
