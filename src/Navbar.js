@@ -62,14 +62,14 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li>
-                  <a className="dropdown-item" href="#">
+                  <Link className="dropdown-item" to="/finame">
                     Finame
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="dropdown-item" href="#">
+                  <Link className="dropdown-item"  to="/consultoria-para-icts-e-universidades">
                     Consultoria para ICTs e Universidades
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </li>

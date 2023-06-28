@@ -70,7 +70,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 100px;
+  padding: 75px;
 }
 
 .text-container4 h2 {
@@ -93,7 +93,7 @@
   }
 }
 
-/* Estilos adicionais para telas menores */
+
 @media (max-width: 767px) {
 
   .container4 {

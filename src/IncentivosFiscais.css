@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@100&display=swap');
+
+
+.titulo-principal2 {
+  padding: 20px;
+  background-color: rgb(30, 62, 110);
+}
+
+.titulo-principal2 h1 {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #fff;
+}

@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@100&display=swap');
+
+
+.titulo-principal4 {
+  padding: 20px;
+  background-color: rgb(30, 62, 110);
+}
+
+.titulo-principal4 h1 {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #fff;
+}
+
+.container5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+  }
+  
+  .text-container5 {
+    text-align: left;
+    margin-bottom: 20px;
+    margin-top: 50px;
+  }
+  
+  
+  .image-container5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px; /* Adicione essa linha para mover a imagem para baixo */
+  }
+  
+  .image-container5 img {
+    width: 100%;
+    height: auto;
+  }
+
+ 
+  .container6 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end; /* Centraliza horizontalmente à direita */
+    background-color: #fff;
+    width: 100vw;
+  }
+  
+  .image-container6 {
+    padding: 20px;
+    flex: 1 1 auto; /* Alterado para flex: 1 1 auto */
+    margin-left: auto; /* Alterado para margin-left: auto */
+  }
+  
+  .image-container6 img {
+    max-width: 75%; /* Defina o valor desejado para diminuir o tamanho */
+    height: auto; /* Ajusta a altura proporcionalmente */
+  }
+  
+  .text-container6 {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+  }
+  
+  .text-container6 h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0077ff;
+    margin-bottom: 30px;
+  }
+  
+  .text-container6 p {
+    font-size: 15px;
+    color: rgb(73, 86, 99);
+  }
+  
+  
+  @media (max-width: 767px) {
+    .image-container6 img {
+      max-width: 100%; /* Reduz a largura máxima para ocupar todo o espaço disponível */
+      height: auto; /* Ajusta a altura proporcionalmente */
+    }
+  }
+  
+  
+  @media (max-width: 767px) {
+  
+    .container6 {
+      justify-content: center; /* Centraliza horizontalmente */
+    }
+  
+    .image-container6 {
+      padding: 0px;
+      margin-top: 20px;
+      margin-left: 0;
+      max-width: 100%; /* Diminui o tamanho do container da imagem em telas menores */
+    }  
+  
+    .text-container6 {
+      text-align: center;
+    }
+  
+    .text-container6 h2 {
+      font-size: 19px;
+    }
+  
+    .text-container6 p {
+      font-size: 16px;
+    }
+  }
+  

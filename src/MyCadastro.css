@@ -15,13 +15,13 @@
   
   
   
-  h2 {
+  .form-container h2 {
     color: aliceblue;
     font-size: 25px;
     margin-bottom: 20px;
   }
   
-  label {
+  .form-container label {
     color: #ccc;
     display: block;
     margin-bottom: 10px;

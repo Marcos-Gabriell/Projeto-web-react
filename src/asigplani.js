@@ -35,18 +35,18 @@ function asigplani() {
 
        
       <MySection5 />
-      <div class="container4">
-  <div class="text-container4">
-    <h2>Diferenciais que nos fazem referência<br />no mercado</h2>
-    <p>A SIGPLANI é uma consultoria especializada em<br />
-    incentivos fiscais e fomento à inovação tecnológica que tem<br />
-    mais de 25 anos de experiência e já atendeu mais de<br />
-    752 clientes distribuídos em 17 estados brasileiros.</p>
-  </div>
-  <div class="image-container4">
-    <img src={logoImg2} alt="Imagem" />
-  </div>
-</div>
+   <div class="container4">
+      <div class="text-container4">
+        <h2>Diferenciais que nos fazem referência<br />no mercado</h2>
+        <p>A SIGPLANI é uma consultoria especializada em<br />
+        incentivos fiscais e fomento à inovação tecnológica que tem<br />
+        mais de 25 anos de experiência e já atendeu mais de<br />
+        752 clientes distribuídos em 17 estados brasileiros.</p>
+      </div>
+        <div class="image-container4">
+        <img src={logoImg2} alt="Imagem" />
+        </div>
+    </div>
 
 
 

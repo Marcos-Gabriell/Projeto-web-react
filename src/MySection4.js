@@ -1,5 +1,6 @@
 import React from 'react';
 import './MySection4.css';
+import { Link } from 'react-router-dom';
 
 const QuemSomos = () => {
   return (
@@ -8,7 +9,7 @@ const QuemSomos = () => {
       <div>
         <h2>QUEM SOMOS.</h2>
         <h3>A SIGPLANI  foi fundada em Curitiba em 1995 com <br/>o objetivo de assessorar empresas de informática e <br/>automação de todos os portes a se habilitar e a manter <br/>os incentivos fiscais da Lei de Informática.</h3><br/>
-        <button className="saiba-mais-btn">Leia mais </button>
+        <Link to="/a-sigplani" className="saiba-mais-btn">Leia mais </Link>
       </div>
     </section>
   );
