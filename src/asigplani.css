@@ -61,8 +61,8 @@
 }
 
 .image-container4 img {
-  max-width: 100vh;
-  height: auto;
+  max-width: 100%; /* Define a largura máxima como 100% do container */
+  height: auto; /* Ajusta a altura proporcionalmente */
 }
 
 .text-container4 {
@@ -70,18 +70,17 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 100px;
 }
 
 .text-container4 h2 {
-  font-size: 35px;
+  font-size: 20px;
   font-weight: bold;
   color: #0d1e36;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 
 .text-container4 p {
-  font-size:20px;
+  font-size: 16px;
   color: rgb(73, 86, 99);
 }
 
@@ -94,7 +93,7 @@
   .image-container4 {
     margin-top: 20px;
     margin-left: 0;
-    max-width: 80%; /* Diminui o tamanho da imagem em telas menores */
+    max-width: 60%; /* Diminui o tamanho do container da imagem em telas menores */
   }
 
   .text-container4 {
@@ -102,13 +101,14 @@
   }
 
   .text-container4 h2 {
-    font-size: 16px; /* Diminui o tamanho do h2 em telas menores */
+    font-size: 20px;
   }
 
   .text-container4 p {
-    font-size: 14px; /* Diminui o tamanho do p em telas menores */
+    font-size: 15px;
   }
 }
+
 
 
 
