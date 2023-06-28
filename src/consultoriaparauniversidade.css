@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@100&display=swap');
+
+
+.titulo-principal5 {
+  padding: 20px;
+  background-color: rgb(30, 62, 110);
+}
+
+.titulo-principal5 h1 {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #fff;
+}
+
+
+    .container7 {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: flex-end; /* Centraliza horizontalmente à direita */
+        background-color: #fff;
+        width: 100vw;
+    }
+  
+    .image-container7 {
+        padding: 20px;
+        flex: 0 0 auto;
+        align-self: flex-start; /* Eleva a imagem */
+    }
+  
+    .image-container7 img {
+        max-width: 55vh; /* Define a largura máxima como 55% da altura do viewport */
+        height: auto; /* Ajusta a altura proporcionalmente */
+    }
+  
+    .text-container7 {
+        flex: 1 1 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 5px;
+    }
+  
+    .text-container7 h2 {
+        font-size: 28px;
+        font-weight: bold;
+        color: #005ee2;
+        margin-bottom: 30px;
+    }
+  
+    .text-container7 h4 {
+        font-size: 25px;
+        font-weight: bold;
+        color: #005ee2;
+        margin-bottom: 30px;
+    }
+  
+    .text-container7 p {
+        font-size: 18px;
+        color: rgb(73, 86, 99);
+    }
+
+
+
+
+
+
+
+
