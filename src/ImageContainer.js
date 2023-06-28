@@ -1,5 +1,6 @@
 import React from 'react';
 import './ImageContainer.css';
+import { Link } from 'react-router-dom';
 import logoImg from './img/logo3.png'; 
 
 const ImageContainer = () => {
@@ -13,7 +14,7 @@ const ImageContainer = () => {
            NAS EMPRESAS ATRAVÉS DE INCENTIVOS FISCAIS  E FOMENTO À INOVAÇÃO<br />
            TECNOLÓGICA, SEMPRE COM RESPONSABILIDADE, ÉTICA E TRANSPARÊNCIA.
         </p>
-        <a href="#" className="btn">Saiba Mais</a>
+        <Link to="/a-sigplani" className="btn">Saiba Mais</Link>
       </div>
     </div>
   );

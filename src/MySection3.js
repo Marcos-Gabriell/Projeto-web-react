@@ -1,6 +1,6 @@
 import React from 'react';
 import './MySection3.css';
-import logoImg from './img/aten.png';
+import logoImg from './img/secretarianovo.png';
 
 function MySection3() {
   return (
