@@ -24,9 +24,9 @@ function IncentivosFiscais() {
               <img src={logoImg} alt="Imagem" />
               <div className="image-caption">
               <Link to="/Lei-da-informatica">
-               <h4 className="text-center" style={{ color: '#3399CC' }}>Lei de Informática</h4>
+               <h4 className="text-center" style={{ color: '#3399CC' }}>Lei de Informática</h4>  
+               </Link>
                 <p className="text-center text-wrap">Empresas fabricantes de equipamentos de informática, comunicação e automação podem pleitear créditos financeiros através de investimentos em pesquisa...</p>
-              </Link>
               </div>
             </div>
           </div>
@@ -34,7 +34,7 @@ function IncentivosFiscais() {
             <div className="image-container2">
               <img src={logoImg1} alt="Imagem" />
               <div className="image-caption">
-                <h4 className="text-center" style={{ color: '#3399CC' }}>Lei de Informática – Manaus</h4>
+                <h4 className="text-center" style={{ color: '#3399CC' }}>Lei de Informática – Manaus</h4>      
                 <p className="text-center text-wrap">Empresas estabelecidas na Amazônia Ocidental ou no Amapá e fabricantes de equipamentos de informática, comunicação e automação que investem em pesquisa, desenvolvimento e inovação…</p>
               </div>
             </div>

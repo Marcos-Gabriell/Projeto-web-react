@@ -52,7 +52,7 @@ const Navbar = () => {
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 <li>
-                  <Link className="dropdown-item" to="/incentivos-fiscias">
+                  <Link className="dropdown-item" to="/incentivos-fiscias/#">
                     Incentivos Fiscais
                   </Link>
                 </li>

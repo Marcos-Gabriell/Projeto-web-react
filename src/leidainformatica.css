@@ -35,6 +35,35 @@
     margin-bottom: 10px;
   }
   
+  .infoo-imagee2 {
+    position: relative;
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+    padding-bottom: 20.25%;
+    margin-bottom: 0px;
+    overflow: hidden;
+  }
+  
+  .infoo-imagee2 img {
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+  }
+  
+  /* Estilos para telas menores */
+  @media (max-width: 768px) {
+    .infoo-imagee2 {
+      width: 100%;
+      height: auto;
+      padding-bottom: 0;
+    }
+    
+    .infoo-imagee2 img {
+      height: auto;
+    }
+  }
+  
   /* Estilos responsivos */
   @media (max-width: 768px) {
     .info-imagee .overlayy {
@@ -47,6 +76,73 @@
   
     .info-imagee .overlayy h2 {
       font-size: 40px;
-    }
+    } 
+    
   }
   
+  .containerr1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-end;
+    background-color: #fff;
+    width: 100vw;
+}
+
+.image-containerr1 {
+    padding: 20px;
+    flex: 0 0 auto;
+    align-self: flex-end;
+    margin-top: -50px;
+}
+
+.image-containerr1 img {
+    max-width: 55vh;
+    height: auto;
+}
+
+.text-containerr1 {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 55px;
+}
+
+.text-containerr1 h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #1e7cff;
+    margin-bottom: 30px;
+}
+
+.text-containerr1 p {
+    font-size: 18px;
+    color: rgb(73, 86, 99);
+}
+
+@media (max-width: 768px) {
+    .containerr1 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .image-containerr1 {
+        margin-top: 0;
+        margin-bottom: 20px;
+        align-self: center;
+    }
+    
+    .containerr1 h1 {
+        font-size: 22px;
+    }
+    .text-containerr1 {
+        padding: 20px;
+    }.text-containerr1 h2 {
+        font-size: 20px;
+    }
+    .text-containerr1 p {
+        font-size: 12px;
+    }
+}

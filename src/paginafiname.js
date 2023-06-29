@@ -34,7 +34,7 @@ function paginafiname() {
           Para se cadastrar no BNDES, máquinas, equipamentos, sistemas e componentes deverão apresentar índice de <br/>
            nacionalização calculado conforme critérios definidos pelo BNDES, ou cumprir o Processo Produtivo Básico – <br/> 
            PPB da Lei de Informática<br/><br/>
-          A Rocha Marques trabalha para que o cadastro dos seus produtos seja assertivo, ganhe tempo!</p>
+          A SIGPLANI trabalha para que o cadastro dos seus produtos seja assertivo, ganhe tempo!</p>
       </div>
         <div class="image-container6">
         <img src={logoImg2} alt="Imagem" />
