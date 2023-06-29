@@ -1,11 +1,12 @@
 import React from 'react';
 import './MySection3.css';
 import logoImg from './img/secretarianovo.png';
+import logoImg2 from './img/logo3.png'; 
 
 function MySection3() {
   return (
     <div className="info-image"><br/>
-      <img src={logoImg} alt="Imagem de informações" />
+      <img src={logoImg2} alt="Imagem de informações" />
       <div className="info-overlay">
         <div className="info-box">
           <h4><br/>ALGUNS FATOS SOBRE O NOSSO TRABALHO</h4>
