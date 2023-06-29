@@ -23,7 +23,8 @@ function leidainformatica() {
         </div>
         </div>
         <SeparatorLine />
-        <div className="containerr1">
+      
+          <div className="containerr1">
             <h1>Empresas fabricantes de equipamentos de informática, comunicação e automação podem pleitear créditos financeiros através investimentos em pesquisa, desenvolvimento e inovação – P,D&I.</h1>
             <div className="text-containerr1">
             <h2>Quem pode se beneficiar?</h2>

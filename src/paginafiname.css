@@ -85,6 +85,13 @@
       max-width: 100%; /* Reduz a largura máxima para ocupar todo o espaço disponível */
       height: auto; /* Ajusta a altura proporcionalmente */
     }
+    .text-container5 {
+      padding: 50px;
+      font-size: 15px;
+      text-align: center;
+
+    }
+  
   }
   
   

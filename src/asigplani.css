@@ -63,6 +63,7 @@
 .image-container4 img {
   max-width: 85vh; /* Define a largura máxima como 100% do container */
   height: auto; /* Ajusta a altura proporcionalmente */
+  padding: 75px;
 }
 
 .text-container4 {

@@ -28,7 +28,7 @@
     }
   
     .image-container7 img {
-        max-width: 55vh; /* Define a largura máxima como 55% da altura do viewport */
+        max-width: 50vh; /* Define a largura máxima como 55% da altura do viewport */
         height: auto; /* Ajusta a altura proporcionalmente */
     }
   

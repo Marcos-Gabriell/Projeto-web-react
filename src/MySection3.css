@@ -45,29 +45,32 @@
 }
 
 .fact {
-  flex: 1 0 250px; /* Ajuste a largura desejada */
-  margin: 0 10px;
+  flex: 1 0 100px; /* Ajuste a largura desejada */
+  margin: 0 50px;
+  font-weight: bold;
 }
 
 .fact-number {
-  font-size: 35px;
+  font-size: 80px;
   font-weight: bold;
 }
 
 .fact-label {
-  font-size: 20px;
-  margin-top: 10px; /* Corrigido: substituído 10x por 10px */
+  font-weight: bold;
+  font-size: 40px;
+  margin-top: 25px; 
 }
 
 .info-box h4 {
-  padding: 50px;
+  padding:75px;
+  font-weight: bold;
   font-size: 50px;
   margin-bottom: 20px;
 }
 
 @media (max-width: 768px) {
   .info-image {
-    padding-bottom: 0; /* Remova o padding-bottom para a imagem ocupar a altura total */
+    padding-bottom: 0;
   }
   
   .info-image img {
