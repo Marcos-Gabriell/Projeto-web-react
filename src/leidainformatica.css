@@ -137,44 +137,59 @@
   align-items: center; /* Centraliza horizontalmente */
 }
 
-
+/* Estilos para telas menores */
 @media (max-width: 768px) {
   .containerr1 {
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   .image-containerr1 {
-      margin-top: 0;
-      margin-bottom: 20px;
-      align-self: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+    align-self: center;
   }
   
   .containerr1 h1 {
-      font-size: 15px;
+    font-size: 15px;
   }
+
   .text-containerr1 {
-      padding: 20px;
-  }.text-containerr1 h2 {
-      font-size: 20px;
+    padding: 20px;
   }
+
+  .text-containerr1 h2 {
+    font-size: 20px;
+  }
+
   .text-containerr1 p {
-      font-size: 12px;
+    font-size: 12px;
   }
+
   .infoo-imagee3 {
     width: 100%;
     height: auto;
     padding-bottom: 0;
   }
+
   .infoo-imagee3 {
     padding: 20px;
   }
+
   .containerr1 h4 {
     font-size: 20px;
   }
+
+  .image-containerr1 img,
+  .infoo-imagee3 img {
+    max-width: 75%; /* Reduz a largura máxima da imagem para 75% */
+    height: auto;
+  }
+
 
   .infoo-imagee3 img {
     max-width: 75%; /* Reduz a largura máxima da imagem para 80% */
   }
 }
+
