@@ -24,8 +24,8 @@ const MySection = () => {
               <div className="image-caption">
               <Link to="/Lei-da-informatica">
                <h4 className="text-center" style={{ color: '#3399CC' }}>Lei de Informática</h4>
+                </Link>
                 <p className="text-center text-wrap">Empresas fabricantes de equipamentos de informática, comunicação e automação podem pleitear créditos financeiros através de investimentos em pesquisa...</p>
-              </Link>
               </div>
             </div>
           </div>

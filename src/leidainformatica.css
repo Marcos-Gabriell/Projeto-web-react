@@ -38,7 +38,7 @@
   /* Estilos responsivos */
   @media (max-width: 768px) {
     .info-imagee .overlayy {
-      transform: translate(-50%, -100%);
+      transform: translate(-45%, -150%);
     }
   
     .info-imagee .overlayy .image-textt {
