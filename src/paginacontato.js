@@ -12,7 +12,7 @@ function paginacontato() {
   return (
     <div>
        <div className='tituloo-principal8'>
-        <h1>Conato</h1>
+        <h1>Contato</h1>
       </div>
 
     <MyCadastro />

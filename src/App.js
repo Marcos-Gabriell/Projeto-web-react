@@ -29,6 +29,7 @@ const App = () => {
           <Route path="/Lei-da-informatica" element={<PaginaLeidainformatica  />} />
           <Route path="/clientes" element={<Paginaclientes  />} />
           <Route path="/conteudo" element={<Paginaconteudo  />} />
+          <Route path="/contato" element={<Paginacontato  />} />
           <Route path="/politicas-de-privacidade" element={<Paginadepolicasdepriacidade  />} />
         </Routes>
       </div>
