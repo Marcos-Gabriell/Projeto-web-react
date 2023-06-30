@@ -12,6 +12,7 @@ import Paginaclientes from './paginaclientes.js';
 import Paginaconteudo from './paginaconteudo.js';
 import Paginacontato from './paginacontato.js';
 import Paginadepolicasdepriacidade from './paginadepolicasdepriacidade.js';
+import Paginainformanus from './paginainformanus.js';
 
 
 const App = () => {
@@ -31,6 +32,7 @@ const App = () => {
           <Route path="/conteudo" element={<Paginaconteudo  />} />
           <Route path="/contato" element={<Paginacontato  />} />
           <Route path="/politicas-de-privacidade" element={<Paginadepolicasdepriacidade  />} />
+          <Route path="/Lei-da-informatica-manus" element={<Paginainformanus  />} />
         </Routes>
       </div>
     </Router>
