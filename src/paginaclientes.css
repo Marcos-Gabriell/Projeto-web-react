@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@100&display=swap');
+
+.titulo-principall2 {
+  padding: 20px;
+  background-color: rgb(30, 62, 110);
+}
+
+.titulo-principall2 h1 {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #fff;
+}
+
+.titulo-2-pagina h1 {
+  font-size: 20px;
+  color: #0d1e36;
+  text-align: center;
+}
+
+.titulo-2-pagina p {
+  color: rgb(44, 76, 121);
+  font-size: 20px;
+  text-align: center;
+}
+
+.containe-clientes {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.containe-clientes img {
+  display: inline-block;
+  width: 100%;
+  max-width: 550px; /* Defina o tamanho máximo desejado para as imagens */
+  height: auto;
+  margin: 70px; /* Define um espaçamento entre as imagens */
+  border: 1px solid rgb(192, 181, 181); /* Adiciona uma borda de 2 pixels sólida preta */
+}
+
+@media (max-width: 767px) {
+  .titulo-2-pagina h1 {
+    padding: 50px;
+    font-size: 12px;
+  }
+
+  .titulo-2-pagina p {
+    font-size: 10px;
+  }
+
+  .containe-clientes img {
+    padding: 50px;
+    max-width: 250px; /* Defina o tamanho máximo desejado para as imagens em telas menores */
+    margin: 10px; /* Redefine o espaçamento entre as imagens */
+  }
+}

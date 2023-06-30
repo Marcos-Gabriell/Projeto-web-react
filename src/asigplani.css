@@ -109,6 +109,10 @@
     max-width:  500%; /* Diminui o tamanho do container da imagem em telas menores */
   }  
 
+  .image-container4 img{
+    padding: 45px;
+    max-width: 300px; /* Defina o tamanho máximo desejado para as imagens em telas menores */
+  }  
   .text-container4 {
     display: flex;
     justify-content: flex-start;

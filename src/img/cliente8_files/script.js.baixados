@@ -1,0 +1,255 @@
+
+// NÚMEROS
+var section = document.querySelector('#home-big');
+var hasEntered = false;
+
+window.addEventListener('scroll', (e) => {
+	var shouldAnimate = (window.scrollY + window.innerHeight) >= section.offsetTop;
+
+	if (shouldAnimate && !hasEntered) {
+  	hasEntered = true;
+    
+    $('.valor').each(function () {
+    	$(this).prop('Counter',0).animate({
+        Counter: $(this).text()
+    	}, {
+        duration: 4000,
+        easing: 'swing',
+        step: function (now) {
+            $(this).text(Math.ceil(now));
+        }
+   		});
+    });
+
+  }
+});
+/*/////////////////////
+ANIMA
+//////////////////////*/
+
+var Logo = $('.logo'),
+    menuTopo = $('#cssmenu ul li'),
+    cabecalho = $('#cabecalho h1'),
+    all_article = $('article'),    
+    blog_lista = $('#lista-blog .item'), 	
+    homeIntro = $(".homeContent h1,.homeContent p");
+
+var onLoad_logo = new TimelineMax({ });
+var onLoad_nav = new TimelineMax({ });
+var onLoad_cab = new TimelineMax({ });
+var onLoad_all_article = new TimelineMax({ });
+var onLoad_blog = new TimelineMax({ });
+var onLoad_homeIntro = new TimelineMax({ });
+
+onLoad_logo
+  .staggerTo (Logo, 1.1, {
+    className:"+=active", delay:0.4, ease:Power4. easeOut
+  }, 0.05);
+onLoad_nav
+  .staggerTo (menuTopo, 1.1, {
+    className:"+=active", delay:0.4, ease:Power4. easeOut
+  }, 0.05);
+onLoad_cab
+  .staggerTo (cabecalho, 1.1, {
+    className:"+=active", ease:Power4. easeOut
+  }, 0.05);
+onLoad_all_article
+  .staggerTo (all_article, 1.1, {
+    className:"+=active", ease:Power4. easeOut
+  }, 0.05);
+onLoad_blog
+  .staggerTo (blog_lista, 1.1, {
+    className:"+=active", delay:0.5, ease:Power4. easeOut
+  }, 0.2);
+onLoad_homeIntro
+  .staggerTo (homeIntro, 1.1, {
+    className:"+=active", delay:0.6, ease:Power4. easeOut
+  }, 0.2);
+
+/* ANIMA ON SCROLL */
+var h_blog = $('#home-blog');
+var h_blog_all = $('#home-blog *');
+var h_profItem = $('.lista-profV ul li');
+var h_blog_tl = new TimelineLite({paused: true});
+var h_blog_all_tl = new TimelineLite({paused: true});
+var tl_profItem = new TimelineLite({paused: true});
+
+h_blog_tl.staggerTo (h_blog, 1.1, {
+    className:"+=active", ease:Power4. easeOut
+}, 0.5);
+h_blog_all_tl.staggerTo (h_blog_all, 1.1, {
+    className:"+=active", delay:0.05, ease:Power4. easeOut
+}, 0.05);
+
+tl_profItem.staggerTo (h_profItem, 1.1, {
+    className:"+=active", delay:0.05, ease:Power4. easeOut
+}, 0.05);
+
+var controller = new ScrollMagic.Controller();
+
+var home_blog = new ScrollMagic.Scene({
+      triggerElement: '#home-blog'
+})
+.on("enter", function (event) {
+    h_blog_tl.play().timeScale(1);
+    h_blog_all_tl.play().timeScale(1);    
+})
+.addTo(controller);
+
+var prof_itens = new ScrollMagic.Scene({
+      triggerElement: '.lista-profV'
+})
+.on("enter", function (event) {
+    tl_profItem.play().timeScale(1);   
+})
+.addTo(controller);
+
+/*/////////////////////
+MENU - STYCKY
+    //////////////////////*/
+$(window).scroll(function () {
+    $('header').addClass('active');
+    if ($(this).scrollTop() >= 150) { // If page is scrolled more than 50px        
+        $('header').addClass('active');
+    } else {        
+        $('header').removeClass('active');
+    }
+});
+
+/*/////////////////////
+RESPONSE
+//////////////////////*/
+$('#btn-call').click(function() { 
+    $('#m-response').toggleClass('active');
+     return false;
+});  
+    $('.fechar a').click(function () {
+    $('#m-response').removeClass('active');
+});  
+/*/////////////////////
+MAPA
+//////////////////////*/
+(function( $ ) {
+
+/**
+ * initMap
+ *
+ * Renders a Google Map onto the selected jQuery element
+ *
+ * @date    22/10/19
+ * @since   5.8.6
+ *
+ * @param   jQuery $el The jQuery element.
+ * @return  object The map instance.
+ */
+function initMap( $el ) {
+
+    // Find marker elements within map.
+    var $markers = $el.find('.marker');
+
+    // Create gerenic map.
+    var mapArgs = {
+        zoom        : $el.data('zoom') || 16,
+        mapTypeId   : google.maps.MapTypeId.ROADMAP
+    };
+    var map = new google.maps.Map( $el[0], mapArgs );
+
+    // Add markers.
+    map.markers = [];
+    $markers.each(function(){
+        initMarker( $(this), map );
+    });
+
+    // Center map based on markers.
+    centerMap( map );
+
+    // Return map instance.
+    return map;
+}
+
+/**
+ * initMarker
+ *
+ * Creates a marker for the given jQuery element and map.
+ *
+ * @date    22/10/19
+ * @since   5.8.6
+ *
+ * @param   jQuery $el The jQuery element.
+ * @param   object The map instance.
+ * @return  object The marker instance.
+ */
+function initMarker( $marker, map ) {
+
+    // Get position from marker.
+    var lat = $marker.data('lat');
+    var lng = $marker.data('lng');
+    var latLng = {
+        lat: parseFloat( lat ),
+        lng: parseFloat( lng )
+    };
+
+    // Create marker instance.
+    var marker = new google.maps.Marker({
+        position : latLng,
+        map: map
+    });
+
+    // Append to reference for later use.
+    map.markers.push( marker );
+
+    // If marker contains HTML, add it to an infoWindow.
+    if( $marker.html() ){
+
+        // Create info window.
+        var infowindow = new google.maps.InfoWindow({
+            content: $marker.html()
+        });
+
+        // Show info window when marker is clicked.
+        google.maps.event.addListener(marker, 'click', function() {
+            infowindow.open( map, marker );
+        });
+    }
+}
+
+/**
+ * centerMap
+ *
+ * Centers the map showing all markers in view.
+ *
+ * @date    22/10/19
+ * @since   5.8.6
+ *
+ * @param   object The map instance.
+ * @return  void
+ */
+function centerMap( map ) {
+
+    // Create map boundaries from all map markers.
+    var bounds = new google.maps.LatLngBounds();
+    map.markers.forEach(function( marker ){
+        bounds.extend({
+            lat: marker.position.lat(),
+            lng: marker.position.lng()
+        });
+    });
+
+    // Case: Single marker.
+    if( map.markers.length == 1 ){
+        map.setCenter( bounds.getCenter() );
+
+    // Case: Multiple markers.
+    } else{
+        map.fitBounds( bounds );
+    }
+}
+
+// Render maps on page load.
+$(document).ready(function(){
+    $('.acf-map').each(function(){
+        var map = initMap( $(this) );
+    });
+});
+
+})(jQuery);
