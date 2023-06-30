@@ -22,13 +22,13 @@
     }
   
     .image-container7 {
-        padding: 20px;
+        padding: 50px;
         flex: 0 0 auto;
         align-self: flex-start; /* Eleva a imagem */
     }
   
     .image-container7 img {
-        max-width: 50vh; /* Define a largura máxima como 55% da altura do viewport */
+        max-width: 45vh; /* Define a largura máxima como 55% da altura do viewport */
         height: auto; /* Ajusta a altura proporcionalmente */
     }
   
