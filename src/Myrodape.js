@@ -13,9 +13,9 @@ const Myrodape = () => {
             <p><Link to="/">Home</Link></p>
             <p><Link to="/a-sigplani">A SIGPLANI</Link></p>
             <p> <Link className="nav-link" to="/clientes">Clientes</Link></p>
-            <p><a href="#Conteúdo">Conteúdo</a></p>
-            <p><a href="#Contato">Contato</a></p>
-            <p><a href="#Políticas de Privacidade">Políticas de Privacidade</a></p>
+            <p><Link to="/conteudo">Conteúdo</Link></p>
+            <p><Link to="/contato">Contato</Link></p>
+            <p><Link  to="/politicas-de-privacidade">Políticas de Privacidade</Link></p>
           </div>
         </div>
 

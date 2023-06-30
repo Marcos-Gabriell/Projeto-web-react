@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@100&display=swap');
+
+
+.tituloo-principal9 {
+  padding: 20px;
+  background-color: rgb(30, 62, 110);
+}
+
+.tituloo-principal9 h1 {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #fff;
+}
+

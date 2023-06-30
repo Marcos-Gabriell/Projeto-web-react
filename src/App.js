@@ -9,6 +9,9 @@ import Fianme from './paginafiname.js';
 import Consultoriaparauniversidade from './consultoriaparauniversidade.js';
 import PaginaLeidainformatica from './leidainformatica.js';
 import Paginaclientes from './paginaclientes.js';
+import Paginaconteudo from './paginaconteudo.js';
+import Paginacontato from './paginacontato.js';
+import Paginadepolicasdepriacidade from './paginadepolicasdepriacidade.js';
 
 
 const App = () => {
@@ -25,6 +28,8 @@ const App = () => {
           <Route path="/consultoria-para-icts-e-universidades" element={<Consultoriaparauniversidade  />} />
           <Route path="/Lei-da-informatica" element={<PaginaLeidainformatica  />} />
           <Route path="/clientes" element={<Paginaclientes  />} />
+          <Route path="/conteudo" element={<Paginaconteudo  />} />
+          <Route path="/politicas-de-privacidade" element={<Paginadepolicasdepriacidade  />} />
         </Routes>
       </div>
     </Router>
