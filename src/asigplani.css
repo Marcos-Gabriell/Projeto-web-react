@@ -89,8 +89,8 @@
 
 @media (max-width: 767px) {
   .image-container4 img {
-    padding: 45px;
-    max-width: 55vh; /* Reduz a largura máxima para ocupar todo o espaço disponível */
+    padding: 100px;
+    max-width: 75vh; /* Reduz a largura máxima para ocupar todo o espaço disponível */
     height: auto; /* Ajusta a altura proporcionalmente */
   }
 }

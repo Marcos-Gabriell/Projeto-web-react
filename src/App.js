@@ -8,7 +8,7 @@ import CaptaçãodeRecursos from './CaptaçãodeRecursos';
 import Fianme from './paginafiname.js';
 import Consultoriaparauniversidade from './consultoriaparauniversidade.js';
 import PaginaLeidainformatica from './leidainformatica.js';
-
+import Paginaclientes from './paginaclientes.js';
 
 
 const App = () => {
@@ -24,6 +24,7 @@ const App = () => {
           <Route path="/finame" element={<Fianme  />} />
           <Route path="/consultoria-para-icts-e-universidades" element={<Consultoriaparauniversidade  />} />
           <Route path="/Lei-da-informatica" element={<PaginaLeidainformatica  />} />
+          <Route path="/clientes" element={<Paginaclientes  />} />
         </Routes>
       </div>
     </Router>
