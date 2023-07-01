@@ -24,7 +24,7 @@ function paginaclientes() {
            <h1>Clientes</h1>
         </div>
         <div className='titulo-2-pagina' >
-          <h1>Implantação e gestão do processo de utilização de incentivos fiscais para pesquisa, desenvolvimento e <br/>
+            <h1>Implantação e gestão do processo de utilização de incentivos fiscais para pesquisa, desenvolvimento e <br/>
              inovação em empresas de pequeno, médio e grande porte nos mais diversificados segmentos.</h1><br/>
              <p>Conheça alguns dos nossos clientes: </p>
         </div>

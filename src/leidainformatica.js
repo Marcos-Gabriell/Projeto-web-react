@@ -44,16 +44,16 @@ function leidainformatica() {
             Informática, abrangendo o suporte ao processo de auditoria independente, quando <br/>
             aplicável.</p>
         </div>
-        <div className="image-containerr1">
-        <img src={logoImg3} alt="Imagem" />
-        </div>
         <div className="text-containerr1">
             <h2>Se a sua empresa não está habilitada, nós elaboramos o pleito de PPB.</h2>
             <p>Se a sua empresa está habilitada, nós gerimos todas as obrigações oriundas da Lei, desde <br/>
             a inclusão de um produto ou modelo, da orientação para a geração do crédito financeiro,<br/>
             da análise de enquadrabilidade dos projetos de P,D&I, até a elaboração do RDA – Relatório <rb/>
             Demonstrativo da Lei de Informática.</p>
-        </div>     
+        </div>   
+        <div className="image-containerr1">
+        <img src={logoImg3} alt="Imagem" />
+        </div> 
         <h4>São mais de 25 anos de experiência na gestão da Lei de Informática à disposição para que este incentivo seja estratégico na sua empresa!</h4>
       </div>
       <div className="infoo-imagee3">

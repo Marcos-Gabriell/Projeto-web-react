@@ -83,7 +83,7 @@
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
-  justify-content: flex-end;
+  justify-content: flex-start; /* Centraliza os elementos ao lado esquerdo */
   background-color: #fff;
   width: 100vw;
 }
@@ -105,20 +105,23 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 55px;
+  padding: 130px;
+  text-align: left; /* Alinha o texto à esquerda */
 }
 
 .text-containerr1 h2 {
   font-size: 28px;
   font-weight: bold;
   color: #1e7cff;
-  margin-bottom: 30px;
+  margin-bottom: 75px; /* Adicionado para criar espaço abaixo do <h2> */
 }
 
 .text-containerr1 p {
   font-size: 18px;
   color: rgb(73, 86, 99);
 }
+
+
 
 .containerr1 h4 {
   flex: 1 1 auto;
@@ -130,11 +133,21 @@
 }
 
 .infoo-imagee3 {
-  padding: 50px;
   display: flex;
-  flex-direction: column;
-  justify-content: center; /* Centraliza verticalmente */
-  align-items: center; /* Centraliza horizontalmente */
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: #fff;
+  width: 100vw;
+  margin-top: -650px; /* Adicione a margem superior desejada */
+  padding: 20px;
+  flex: 1 1 auto; /* Alterado para flex: 1 1 auto */
+  margin-left: auto;
+}
+
+.infoo-imagee3 img {
+  max-width: 75%; /* Defina o valor desejado para diminuir o tamanho */
+    height: auto; /* Ajusta a altura proporcionalmente */
 }
 
 /* Estilos para telas menores */
@@ -192,4 +205,3 @@
     max-width: 75%; /* Reduz a largura máxima da imagem para 80% */
   }
 }
-

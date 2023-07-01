@@ -34,7 +34,9 @@ function IncentivosFiscais() {
             <div className="image-container2">
               <img src={logoImg1} alt="Imagem" />
               <div className="image-caption">
+              <Link to="/Lei-da-informatica-manus">
                 <h4 className="text-center" style={{ color: '#3399CC' }}>Lei de Informática – Manaus</h4>      
+                </Link>
                 <p className="text-center text-wrap">Empresas estabelecidas na Amazônia Ocidental ou no Amapá e fabricantes de equipamentos de informática, comunicação e automação que investem em pesquisa, desenvolvimento e inovação…</p>
               </div>
             </div>
