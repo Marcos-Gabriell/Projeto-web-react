@@ -25,30 +25,32 @@ function leidainformatica() {
         <SeparatorLine />
       
         <div className="coontainerr1">
-            <h1>Empresas estabelecidas na Amazônia Ocidental ou no Amapá e fabricantes de equipamentos de informática, <br/>
-            comunicação e automação que investem em pesquisa, desenvolvimento e inovação – P,D&I têm isenção de IPI <br/>
-            e redução de II na compra de insumos.</h1><br/><br/><br/>
+            <h1>Empresas fabricantes de equipamentos de informática, comunicação e automação podem pleitear créditos <br/>
+              financeiros através investimentos em pesquisa, desenvolvimento e inovação – P,D&I.</h1><br/><br/><br/>
             <div className="texxt-containerr1">
-            <h2>Quem pode se beneficiar da Lei?</h2>
-            <p>Empresas brasileiras de qualquer porte que fabriquem Amazônia Ocidental ou no Estado do <br/>
-             Amapá bens de informática e automação conforme regulamentado em Decreto. Entre em <br/>
-             contato conosco e nós faremos esta avaliação para a sua empresa em busca da <br/>
-             conformidade da Lei de Informática na Zona Franca de Manaus.</p>
+            <h2>Quem pode se beneficiar?</h2>
+            <p>Empresas brasileiras de qualquer porte que fabriquem localmente bens de informática e <br/>
+            automação, conforme regulamentado em Decreto. Entre em contato conosco e nós <br/>
+            faremos esta avaliação para a sua empresa para o processo de gestão da Lei de <br/>
+             Informática.</p>
         </div>
         <div className="texxt-containerr1">
             <h2>Qual o benefício para a sua empresa?</h2>
-            <p>Isenção do IPI – Imposto sobre Produtos Industrializados, quando da venda dos produtos <br/>
-            incentivados e redução do II – Imposto de importação na compra de insumos para fabricação <br/>
-             dos produtos incentivados.</p>
+            <p>Crédito financeiro a ser compensado com tributos federais (IPI, IRPJ, CSLL, PIS, COFINS) em <br/>
+              até 5 anos.</p>
         </div>
         <div className="texxt-containerr1">
             <h2>Como atuamos?</h2>
-            <p>A SIGPLANI suporta a empresa na manutenção dos incentivos fiscais da Lei de Informática <br/>
-             na Zona Franca de Manaus, atuando na busca da conformidade no cumprimento das obrigações <br/>
-              de investimento em P,D&I.<br/><br/>
-               Se asua empresa está habilitada na SUFRAMA, nós gerimos todas as obrigações oriundas da Lei, <br/>
-               desde a inclusão de um produto ou modelo, da análise de enquadrabilidade dos projetos de <br/>
-               P,D&I, até a prestação de contas.</p>
+            <p>A SIGPLANI presta consultoria em todas as etapas do processo de gestão da Lei de <br/>
+            Informática, abrangendo o suporte ao processo de auditoria independente, quando <br/>
+            aplicável.</p>
+        </div>   
+        <div className="texxt-containerr1">
+            <h2>Se a sua empresa não está habilitada, nós elaboramos o pleito de PPB.</h2>
+            <p>Se a sua empresa está habilitada, nós gerimos todas as obrigações oriundas da Lei, desde <br/>
+              a inclusão de um produto ou modelo, da orientação para a geração do crédito financeiro, <br/>
+              da análise de enquadrabilidade dos projetos de P,D&I, até a elaboração do RDA – Relatório <br/>
+              Demonstrativo da Lei de Informática.</p>
         </div>   
       </div>
          <div className="imagee-containerr1">
