@@ -22,7 +22,7 @@ const MySection = () => {
             <div className="image-container2">
               <img src={logoImg} alt="Imagem" />
               <div className="image-caption">
-              <Link to="/Lei-da-informatica">
+              <Link className="dropdown-item" to="/Lei-da-informatica">
                <h4 className="text-center" style={{ color: '#3399CC' }}>Lei de Informática</h4>
                </Link>
                 <p className="text-center text-wrap">Empresas fabricantes de equipamentos de informática, comunicação e automação podem pleitear créditos financeiros através de investimentos em pesquisa...</p>
@@ -33,7 +33,7 @@ const MySection = () => {
             <div className="image-container2">
               <img src={logoImg1} alt="Imagem" />
               <div className="image-caption">
-                <Link to="/Lei-da-informatica-manus">
+                <Link className="dropdown-item" to="/Lei-da-informatica-manus">
                 <h4 className="text-center" style={{ color: '#3399CC' }}>Lei de Informática – Manaus</h4>
                 </Link>
                 <p className="text-center text-wrap">Empresas estabelecidas na Amazônia Ocidental ou no Amapá e fabricantes de equipamentos de informática, comunicação e automação que investem em pesquisa, desenvolvimento e inovação…</p>
@@ -44,7 +44,7 @@ const MySection = () => {
             <div className="image-container2">
               <img src={logoImg2} alt="Imagem" />
               <div className="image-caption">
-              <Link to="/Lei-do-bem/">
+              <Link className="dropdown-item" to="/Lei-do-bem/">
                 <h4 className="text-center" style={{ color: '#3399CC' }}>Lei do Bem</h4>
                 </Link>
                 <p className="text-center text-wrap">Empresas podem ter um ganho financeiro de até 34% sobre seus investimentos em inovação.</p>
