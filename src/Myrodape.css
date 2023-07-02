@@ -3,7 +3,7 @@
     color: rgb(0, 0, 0);
     height: auto;
     width: 100%;
-    font-size: 14px;
+    font-size: 18px;
     font-family: helvetica;
 }
 .rodape a{
@@ -47,4 +47,17 @@
     .rodape-div{
         padding: 60px 0px 40px 0px;
     }
+    .rodape span{
+        font-size: 10px;
+        color: rgb(0, 121, 219);
+    }
+    .rodape{
+        background-color: #ffffff;
+        color: rgb(0, 0, 0);
+        height: auto;
+        width: 85%;
+        font-size: 10px;
+        font-family: helvetica;
+    }
+   
 }
