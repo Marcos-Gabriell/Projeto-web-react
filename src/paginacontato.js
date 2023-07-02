@@ -56,7 +56,7 @@ function paginacontato() {
         <label className="validar">
         Ao informar meus dados, eu concordo com a Política de Privacidade.
         </label>
-      <button type="submit">Enviar</button>
+      <button type="button">Enviar</button>
     </form>
   </div>
 </div>

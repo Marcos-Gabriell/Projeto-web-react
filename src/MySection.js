@@ -44,7 +44,9 @@ const MySection = () => {
             <div className="image-container2">
               <img src={logoImg2} alt="Imagem" />
               <div className="image-caption">
+              <Link to="/Lei-do-bem/">
                 <h4 className="text-center" style={{ color: '#3399CC' }}>Lei do Bem</h4>
+                </Link>
                 <p className="text-center text-wrap">Empresas podem ter um ganho financeiro de até 34% sobre seus investimentos em inovação.</p>
               </div>
             </div>

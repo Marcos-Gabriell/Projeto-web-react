@@ -11,19 +11,19 @@ const Myrodape = () => {
           <div className="rodape-div-3-coluna">
             <span><b>NAVEGUE</b></span>
             <p><Link to="/">Home</Link></p>
-            <p><Link to="/a-sigplani">A SIGPLANI</Link></p>
-            <p> <Link className="nav-link" to="/clientes">Clientes</Link></p>
-            <p><Link to="/conteudo">Conteúdo</Link></p>
-            <p><Link to="/contato">Contato</Link></p>
-            <p><Link  to="/politicas-de-privacidade">Políticas de Privacidade</Link></p>
+            <p><Link to="/a-sigplani/">A SIGPLANI</Link></p>
+            <p> <Link className="nav-link" to="/clientes/">Clientes</Link></p>
+            <p><Link to="/conteudo/">Conteúdo</Link></p>
+            <p><Link to="/contato/">Contato</Link></p>
+            <p><Link  to="/politicas-de-privacidade/">Políticas de Privacidade</Link></p>
           </div>
         </div>
 
         <div className="rodape-div-2">
           <div className="rodape-div-3-coluna">
             <span><b>Serviços</b></span>
-            <p> <Link to="/Lei-da-informatica">Lei de informática</Link></p>
-            <p><Link to="/Lei-da-informatica-manus">Lei de informática - Manaus</Link></p>
+            <p> <Link to="/Lei-da-informatica/">Lei de informática</Link></p>
+            <p><Link to="/Lei-da-informatica-manus/">Lei de informática - Manaus</Link></p>
             <p><a href="#Lei do Bem">Lei do Bem</a></p>
             <p><a href="#Padis">Padis</a></p>
             <p><a href="#Rota2030">Rota 2030</a></p>
