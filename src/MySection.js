@@ -91,7 +91,9 @@ const MySection = () => {
             <div className="image-container2">
               <img src={logoImg7} alt="Imagem" />
               <div className="image-caption">
+              <Link className="dropdown-item" to="/finame">
                 <h4 className="text-center" style={{ color: '#3399CC' }}>Finame</h4>
+                </Link>
                 <p className="text-center text-wrap">O FINAME tem por objetivo financiar a produção e aquisição de máquinas e equipamentos cadastrados no BNDES.</p>
               </div>
             </div>
@@ -101,7 +103,9 @@ const MySection = () => {
             <div className="image-container2">
               <img src={logoImg9} alt="Imagem" />
               <div className="image-caption">
+              <Link className="dropdown-item"  to="/consultoria-para-icts-e-universidades">
                 <h4 className="text-center" style={{ color: '#3399CC' }}>Consultoria para<br/> ICTs e Universidades</h4>
+                </Link>
                 <p className="text-center text-wrap">As Universidades podem desenvolver projetos de pesquisa, desenvolvimento e inovação em parceria com empresas beneficiárias dos incentivos fiscais federais, através da Lei do Bem, Lei de Informática e Rota 2030.</p>
               </div>
             </div>

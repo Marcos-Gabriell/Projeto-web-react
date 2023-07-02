@@ -11,6 +11,7 @@
 }
 
 .coontainer8 {
+  padding: 125px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -65,7 +66,7 @@
   justify-content: flex-end;
   align-items: flex-start; /* Alinhado ao topo */
   height: 100vh;
-  margin-top: -425px; /* Margem negativa para elevar a div */
+  margin-top: -485px; /* Margem negativa para elevar a div */
   margin-right: 280px; /* Margem para o lado esquerdo */
 }
 

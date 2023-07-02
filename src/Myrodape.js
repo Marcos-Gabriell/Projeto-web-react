@@ -24,13 +24,13 @@ const Myrodape = () => {
             <span><b>Serviços</b></span>
             <p> <Link to="/Lei-da-informatica/">Lei de informática</Link></p>
             <p><Link to="/Lei-da-informatica-manus/">Lei de informática - Manaus</Link></p>
-            <p><a href="#Lei do Bem">Lei do Bem</a></p>
+            <p><Link to="/Lei-do-bem/">Lei do Bem</Link></p>
             <p><a href="#Padis">Padis</a></p>
             <p><a href="#Rota2030">Rota 2030</a></p>
             <p><a href="#FINEP">FINEP</a></p>
             <p><a href="#BRDE">BRDE</a></p>
-            <p><a href="#Finame">Finame</a></p>
-            <p><a href="#Consultoria para ICTs e Universidades">Consultoria para ICTs e Universidades</a></p>
+            <p><Link className="dropdown-item" to="/finame">Finame</Link></p>
+            <p> <Link className="dropdown-item"  to="/consultoria-para-icts-e-universidades">Consultoria para ICTs e Universidades</Link></p>
           </div>
         </div>
 
