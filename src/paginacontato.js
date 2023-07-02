@@ -14,7 +14,7 @@ function paginacontato() {
       <div className="coontainer8">
         <div className="teexxt-containerrt5">
           <h2>Potencialize seus investimentos<br />em inovação.</h2>
-          <p>Entre em contato conosco e conheça as oportunidades para investir em inovação. A<br />
+          <p >Entre em contato conosco e conheça as oportunidades para investir em inovação. A<br />
             nossa equipe está à disposição para atendê-lo.</p>
           <h3>Horário de atendimento:</h3>
           <p>Segunda à Sexta 9:00 às 17:00<br /><br />

@@ -122,7 +122,7 @@ input[type="checkbox"] {
   }
 
   .conntainer-2 {
-    margin-top: -300px;
+    margin-top: -50px;
     margin-right: 0;
     justify-content: flex-start;
   }
@@ -132,7 +132,7 @@ input[type="checkbox"] {
     margin-bottom: 20px;
     text-align: left;
     margin-left: 0;
-    margin-right: 20px;
+    margin-right: 150px;
   }
 
   .teexxt-containerrt5 p {
@@ -142,7 +142,7 @@ input[type="checkbox"] {
     margin-top: 20px;
     text-align: left;
     margin-left: 0;
-    margin-right: 50px;
+    margin-right: 120px;
   }
 
   .teexxt-containerrt5 h3 {
@@ -150,6 +150,6 @@ input[type="checkbox"] {
     margin-bottom: 20px;
     text-align: left;
     margin-left: 0;
-    margin-right: 20px;
+    margin-right: 200px;
   }
 }
