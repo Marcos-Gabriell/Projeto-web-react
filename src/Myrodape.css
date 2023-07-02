@@ -38,6 +38,17 @@
     text-align: center;
 }
 
+.line3 {
+    border: none;
+    border-top: 3px solid #525252; /* Espessura e cor da linha preta */
+    margin: 1% auto; /* Centraliza as linhas horizontalmente e adiciona espaçamento */
+    width: auto; /* Define a largura das linhas */
+  }
+  @media (max-width: 600px) {
+    .line3 {
+      width: 120%; /* Reduz a largura das linhas em dispositivos com largura máxima de 600px */
+    }
+  }
 /*mobile*/
 @media (max-width: 768px) {
     .rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
@@ -58,6 +69,10 @@
         width: 85%;
         font-size: 10px;
         font-family: helvetica;
+    }
+
+    p {
+
     }
    
 }
