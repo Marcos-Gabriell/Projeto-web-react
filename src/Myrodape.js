@@ -52,7 +52,7 @@ const Myrodape = () => {
         </div>
       </div>
 
-      <hr className="line3" />
+      <hr className="line2" />
       <p className="rodape-direitos">2023 - SIGPLANI. Incentivos à inovação. - Todos os direitos reservados - Desenvolvido por In Company</p>
     </footer>
 
