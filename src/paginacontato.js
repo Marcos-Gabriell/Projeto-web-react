@@ -32,6 +32,35 @@ function paginacontato() {
        </div>
       </div>
       </div>
+      <div class="conntainer-2">
+    <div class="formm-container-2">
+    <h3>ENVIE SUA MENSAGEM</h3>
+    <form>
+      <div class="formm-group-2">
+        <input type="text" id="name" name="name" placeholder="Digite seu nome" />
+      </div>
+      <div class="formm-group-2">
+        <input type="email" id="email" name="email" placeholder="Digite seu email" />
+      </div>
+      <div class="formm-group-2">
+        <input type="text" id="subject" name="subject" placeholder="Digite o assunto" />
+      </div>
+      <div class="formm-group-2">
+        <textarea id="message" name="message" placeholder="Digite a mensagem"></textarea>
+      </div>
+      <br />
+      <label>
+          <input type="checkbox"  />
+          Concordo em receber comunicações.<br/>
+        </label>
+        <label className="validar">
+        Ao informar meus dados, eu concordo com a Política de Privacidade.
+        </label>
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
+</div>
+
     <MyCadastro />
     <End />
     <Myrodape />
