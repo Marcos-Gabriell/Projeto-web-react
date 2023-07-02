@@ -99,7 +99,7 @@ textarea {
   margin-left: 0px; /* Adiciona margem à esquerda */
 }
 
-.formm-container-2 button[type="submit"] {
+.formm-container-2 button {
   padding: 10px 20px;
   font-size: 18px;
   background-color: transparent;
@@ -110,7 +110,7 @@ textarea {
   border: 1px solid #083972;
 }
 
-.formm-container-2 button[type="submit"]:hover {
+.formm-container-2 button:hover {
   background-color: #012657;
   color: aliceblue;
 }
@@ -146,10 +146,13 @@ input[type="checkbox"] {
   .teexxt-containerrt5 p {
     font-size: 14px;
     color: rgb(73, 86, 99);
-    margin-bottom: 110px; /* Adiciona um espaço de 20 pixels para baixo */
+    margin-bottom: 150px; /* Adiciona um espaço de 20 pixels para baixo */
   }
   .teexxt-containerrt5 h3 {
     font-size: 14px;
     margin-bottom: 55px;
+  }
+  .formm-container-2 button[type="button"] {
+    margin-bottom: 0px;
   }
 }
