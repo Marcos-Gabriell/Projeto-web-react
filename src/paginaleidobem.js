@@ -13,7 +13,7 @@ function paginaleidobem() {
           <img src={logoImg} alt="Imagem" style={{ objectFit: 'cover' }} /> 
           <div className="ooverlayy-9">
           <p className="imagee-texxtt-9">INCENTIVOS FISCAIS</p>
-        <h1>PADIS</h1>
+        <h1>Lei do Bem</h1>
       </div>
          <br/> 
       </div>
