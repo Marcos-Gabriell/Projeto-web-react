@@ -14,7 +14,7 @@ import Paginacontato from './paginacontato.js';
 import Paginadepolicasdepriacidade from './paginadepolicasdepriacidade.js';
 import Paginainformanus from './paginainformanus.js';
 import Paginaleidobem from './paginaleidobem.js';
-
+import Paginapadis from './paginapadis.js';
 
 const App = () => {
   return (
@@ -35,6 +35,7 @@ const App = () => {
           <Route path="/politicas-de-privacidade/" element={<Paginadepolicasdepriacidade  />} />
           <Route path="/Lei-da-informatica-manus/" element={<Paginainformanus  />} />
           <Route path="/Lei-do-bem/" element={<Paginaleidobem  />} />
+          <Route path="/padis/" element={<Paginapadis  />} />
         </Routes>
       </div>
     </Router>

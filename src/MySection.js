@@ -55,7 +55,9 @@ const MySection = () => {
             <div className="image-container2">
               <img src={logoImg3} alt="Imagem" />
               <div className="image-caption">
+              <Link className="dropdown-item" to="/padis">
                 <h4 className="text-center" style={{ color: '#3399CC' }}>PADIS</h4>
+                </Link>
                 <p className="text-center text-wrap">O Programa de Apoio ao Desenvolvimento Tecnológico da Indústria de Semicondutores (PADIS) é um incentivo fiscal federal estabelecido com o objetivo de contribuir…</p>
               </div>
             </div>
