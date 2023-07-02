@@ -139,19 +139,23 @@ input[type="checkbox"] {
     margin-right: 0; /* Remove a margem à direita */
     margin-left: 0; /* Remove a margem à esquerda */
   }
+  
   .teexxt-containerrt5 h2 {
     font-size: 20px;
     margin-bottom: 20px;
   }
+  
   .teexxt-containerrt5 p {
     font-size: 14px;
     color: rgb(73, 86, 99);
     margin-bottom: 150px; /* Adiciona um espaço de 20 pixels para baixo */
   }
+  
   .teexxt-containerrt5 h3 {
     font-size: 14px;
     margin-bottom: 55px;
   }
+  
   .formm-container-2 button[type="button"] {
     margin-bottom: 0px;
   }
