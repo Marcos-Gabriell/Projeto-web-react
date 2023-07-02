@@ -9,13 +9,13 @@ import logoImg1 from './img/imgleidobem2.png';
 function paginaleidobem() {
   return (
     <div>
-        <div className="imagee-containerr9">
-       <img src={logoImg} alt="Imagem" style={{ objectFit: 'cover' }} /> 
-       <div className="ooverlayy9">
-       <p className="imagee-texxtt9">INCENTIVOS FISCAIS</p>
-        <h1>Lei do Bem</h1>
+        <div className="imagee-containerr-9">
+          <img src={logoImg} alt="Imagem" style={{ objectFit: 'cover' }} /> 
+          <div className="ooverlayy-9">
+          <p className="imagee-texxtt-9">INCENTIVOS FISCAIS</p>
+        <h1>PADIS</h1>
       </div>
-      <br/> 
+         <br/> 
       </div>
       <div className="coontainerr3">
             <h1>Empresas podem ter um ganho financeiro de até 34% sobre seus investimentos em inovação.</h1><br/><br/>
