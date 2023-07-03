@@ -120,15 +120,16 @@ input[type="checkbox"] {
   .coontainer8 {
     align-items: flex-start;
   }
+
   .formm-container-2 input[type="text"],
   input[type="email"],
-   textarea {
-  width: 70%;
-  height: 60px;
-  padding: 10px;
-  border: 1px solid #666464;
-  border-radius: 4px;
-}
+  textarea {
+    width: 70%;
+    height: 60px;
+    padding: 10px;
+    border: 1px solid #666464;
+    border-radius: 4px;
+  }
 
   .conntainer-2 {
     margin-top: -50px;

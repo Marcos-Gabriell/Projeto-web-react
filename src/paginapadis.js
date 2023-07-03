@@ -19,41 +19,34 @@ function paginapadis() {
    </div>
 
    <div className="coontainerr-2">
-            <h1>Empresas fabricantes de equipamentos de informática, comunicação e automação podem pleitear créditos <br/>
-              financeiros através investimentos em pesquisa, desenvolvimento e inovação – P,D&I.</h1><br/><br/><br/>
+            <h1>Conjunto de incentivos fiscais federais destinado às áreas de componentes ou dispositivos semicondutores, <br/>
+            incluindo células e módulos/painéis fotovoltaicos, insumos e equipamentos dedicados e destinados à <br/>
+            fabricação de componentes ou dispositivos eletrônicos semicondutores, bem como displays (mostradores de informação).</h1><br/><br/><br/>
+          
             <div className="texxt-containerr-2">
             <h2>Quem pode se beneficiar?</h2>
-            <p>Empresas brasileiras de qualquer porte que fabriquem localmente bens de informática e <br/>
-            automação, conforme regulamentado em Decreto. Entre em contato conosco e nós <br/>
-            faremos esta avaliação para a sua empresa para o processo de gestão da Lei de <br/>
-             Informática.</p>
+            <p>Empresas fabricantes de semicondutores e displays e que investem em PD&I nas áreas de <br/>
+             microeletrônica.</p>
         </div>
         <div className="texxt-containerr-2">
             <h2>Qual o benefício para a sua empresa?</h2>
-            <p>Crédito financeiro a ser compensado com tributos federais (IPI, IRPJ, CSLL, PIS, COFINS) em <br/>
-              até 5 anos.</p>
+            <p>Redução a zero nas alíquotas de IPI, PIS, COFINS, II e CIDE nas aquisições (mercado interno e <br/>
+              importações) de matérias-primas, insumos, equipamentos e softwares utilizados nas <br/>
+               atividades de produção e P,D&I, <br/><br/>
+               Redução de 100% do IRPJ e do Adicional sobre o lucro da exploração e<br/><br/>
+               Crédito financeiro calculado sobre os investimentos em P,D&I..</p>
         </div>
+        <h3>Quer saber como o PADIS pode beneficiar a sua empresa? Entre em contato conosco!</h3>
         <div className="texxt-containerr-2">
             <h2>Como atuamos?</h2>
-            <p>A SIGPLANI presta consultoria em todas as etapas do processo de gestão da Lei de <br/>
-            Informática, abrangendo o suporte ao processo de auditoria independente, quando <br/>
-            aplicável.</p>
+            <p>A Rocha Marques presta consultoria em todas as etapas do processo de gestão do PADIS, desde o credenciamento da empresa junto ao MCTI até a prestação de contas e suporte <br/>
+            no processo de auditoria interna..</p>
         </div>   
-        <div className="texxt-containerr=2">
-            <h2>Se a sua empresa não está habilitada, nós elaboramos o pleito de PPB.</h2>
-            <p>Se a sua empresa está habilitada, nós gerimos todas as obrigações oriundas da Lei, desde <br/>
-              a inclusão de um produto ou modelo, da orientação para a geração do crédito financeiro, <br/>
-              da análise de enquadrabilidade dos projetos de P,D&I, até a elaboração do RDA – Relatório <br/>
-              Demonstrativo da Lei de Informática.</p>
-        </div>   
+        <h3>Desde 2009 a Rocha Marques auxilia empresas de semicondutores a se beneficiar destes incentivos fiscais.</h3>
       </div>
-         <div className="imagee-containerr1-2">
+      <div className="imagee-containerr-2">
          <img src={logoImg1} alt="Imagem" />
         </div>
-        <div className="subtitulo-2">
-           <h4>São mais de 25 anos de experiência na gestão da Lei de Informática à disposição para que este incentivo seja estratégico na sua empresa!</h4>
-        </div>
-
    
   <MyCadastro />
   <End />
