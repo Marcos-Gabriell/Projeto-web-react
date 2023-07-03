@@ -130,23 +130,20 @@
       margin-top: 30px;
     }
     .coontainerr-2 h1 {
-      font-size: 15px;
+      font-size: 25px;
     }
     .coontainerr-2 {
         padding: 50px; /* Ajuste o valor desejado para dispositivos de tela menor */
         margin-top: 30px; /* Ajuste o valor desejado para dispositivos de tela menor */
       }
       
-      .coontainerr-2 h1 {
-        font-size: 10px; /* Ajuste o valor desejado para dispositivos de tela menor */
-      }
       
       .texxt-containerr-2 h2 {
-        font-size: 18px; /* Ajuste o valor desejado para dispositivos de tela menor */
+        font-size: 12px; /* Ajuste o valor desejado para dispositivos de tela menor */
       }
       
       .texxt-containerr-2 p {
-        font-size: 14px; /* Ajuste o valor desejado para dispositivos de tela menor */
+        font-size: 12px; /* Ajuste o valor desejado para dispositivos de tela menor */
       }
       
       .coontainerr-2 h3 {

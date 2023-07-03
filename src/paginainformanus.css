@@ -76,13 +76,13 @@
 }
 
 .texxt-containerr2 h2 {
-  font-size: 20px;
+  font-size: 12px;
   font-weight: bold;
   color: #1e7cff;
   margin-bottom: 30px;
 }
 .texxt-containerr2 p {
-  font-size: 15px;
+  font-size: 12px;
   color: rgb(73, 86, 99);
 }
 
@@ -116,6 +116,6 @@
     margin-top: 30px;
   }
   .coontainerr2 h1 {
-    font-size: 15px;
+    font-size: 25px;
   }
 }
