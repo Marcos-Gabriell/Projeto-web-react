@@ -1,6 +1,9 @@
 .tituloo-principal8 {
   padding: 20px;
   background-color: rgb(30, 62, 110);
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
 }
 
 .tituloo-principal8 h1 {
@@ -12,6 +15,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
   background-color: #fff;
   width: 100vw;
   padding: 20px;
