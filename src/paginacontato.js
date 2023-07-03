@@ -5,7 +5,7 @@ import End from './End';
 import Myrodape from './Myrodape';
 import { FaFacebook, FaLinkedin, FaInstagram } from 'react-icons/fa';
 
-function paginacontato() {
+function PaginaContato() {
   return (
     <div>
       <div className='tituloo-principal8'>
@@ -14,7 +14,7 @@ function paginacontato() {
       <div className="coontainer8">
         <div className="teexxt-containerrt5">
           <h2>Potencialize seus investimentos<br />em inovação.</h2>
-          <p >Entre em contato conosco e conheça as oportunidades para investir em inovação. A<br />
+          <p>Entre em contato conosco e conheça as oportunidades para investir em inovação. A<br />
             nossa equipe está à disposição para atendê-lo.</p>
           <h3>Horário de atendimento:</h3>
           <p>Segunda à Sexta 9:00 às 17:00<br /><br />
@@ -28,20 +28,20 @@ function paginacontato() {
           </div>
         </div>
       </div>
-      <div className="conntainer-2">
-        <div className="formm-container-2">
+      <div className="container-2">
+        <div className="form-container-2">
           <h3>ENVIE SUA MENSAGEM</h3>
           <form>
-            <div className="formm-group-2">
+            <div className="form-group-2">
               <input type="text" id="name" name="name" placeholder="Digite seu nome" />
             </div>
-            <div className="formm-group-2">
+            <div className="form-group-2">
               <input type="email" id="email" name="email" placeholder="Digite seu email" />
             </div>
-            <div className="formm-group-2">
+            <div className="form-group-2">
               <input type="text" id="subject" name="subject" placeholder="Digite o assunto" />
             </div>
-            <div className="formm-group-2">
+            <div className="form-group-2">
               <textarea id="message" name="message" placeholder="Digite a mensagem"></textarea>
             </div>
             <br />
@@ -56,7 +56,6 @@ function paginacontato() {
           </form>
         </div>
       </div>
-
       <MyCadastro />
       <End />
       <Myrodape />
@@ -64,4 +63,4 @@ function paginacontato() {
   );
 }
 
-export default paginacontato;
+export default PaginaContato;

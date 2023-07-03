@@ -37,7 +37,7 @@ function paginaleidobem() {
         </div>
         <div className="texxt-containerr3">
             <h2>Como atuamos?</h2>
-            <p>A Rocha Marques presta consultoria em todas as etapas do processo de gestão da Lei do Bem.</p>
+            <p>A SIGPLANI presta consultoria em todas as etapas do processo de gestão da Lei do Bem.</p>
         </div>   
         <div className="subtitulo-2">
            <h4>Se a sua empresa nunca utilizou este incentivo, nós implementações um processo de gestão da Lei do Bem na sua empresa.</h4>

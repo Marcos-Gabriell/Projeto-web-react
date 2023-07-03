@@ -39,10 +39,10 @@ function paginapadis() {
         <h3>Quer saber como o PADIS pode beneficiar a sua empresa? Entre em contato conosco!</h3>
         <div className="texxt-containerr-2">
             <h2>Como atuamos?</h2>
-            <p>A Rocha Marques presta consultoria em todas as etapas do processo de gestão do PADIS, desde o credenciamento da empresa junto ao MCTI até a prestação de contas e suporte <br/>
+            <p>A SIGPLANI presta consultoria em todas as etapas do processo de gestão do PADIS, desde o credenciamento da empresa junto ao MCTI até a prestação de contas e suporte <br/>
             no processo de auditoria interna..</p>
         </div>   
-        <h3>Desde 2009 a Rocha Marques auxilia empresas de semicondutores a se beneficiar destes incentivos fiscais.</h3>
+        <h3>Desde 2009 a SIGPLANI auxilia empresas de semicondutores a se beneficiar destes incentivos fiscais.</h3>
       </div>
       <div className="imagee-containerr-2">
          <img src={logoImg1} alt="Imagem" />

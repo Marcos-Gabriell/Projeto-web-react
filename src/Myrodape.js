@@ -25,8 +25,8 @@ const Myrodape = () => {
             <p> <Link to="/Lei-da-informatica/">Lei de informática</Link></p>
             <p><Link to="/Lei-da-informatica-manus/">Lei de informática - Manaus</Link></p>
             <p><Link to="/Lei-do-bem/">Lei do Bem</Link></p>
-            <p><a href="#Padis">Padis</a></p>
-            <p><a href="#Rota2030">Rota 2030</a></p>
+            <p><Link className="dropdown-item" to="/padis">Padis</Link></p>
+            <p><Link className="dropdown-item" to="/rota-2030">Rota 2030</Link></p>
             <p><a href="#FINEP">FINEP</a></p>
             <p><a href="#BRDE">BRDE</a></p>
             <p><Link className="dropdown-item" to="/finame">Finame</Link></p>

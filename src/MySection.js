@@ -66,7 +66,9 @@ const MySection = () => {
             <div className="image-container2">
               <img src={logoImg4} alt="Imagem" />
               <div className="image-caption">
+              <Link className="dropdown-item" to="/rota-2030">
                 <h4 className="text-center" style={{ color: '#3399CC' }}>Rota 2030</h4>
+                </Link>
                 <p className="text-center text-wrap">O Programa Rota 2030 é uma iniciativa criada pelo governo, descrita na Lei Federal nº 13.755/2018, que tem como objetivo estimular o desenvolvimento na indústria automotiva…</p>
               </div>
             </div>
