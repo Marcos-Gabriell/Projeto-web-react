@@ -5,7 +5,7 @@ import End from './End';
 import SeparatorLine from './SeparatorLine';
 import Myrodape from './Myrodape';
 import logoImg from './img/imgfinep.png'; 
-//import logoImg1 from './img/imgleidobem2.png'; 
+import logoImg1 from './img/img2finep.png'; 
 
 function paginafinep() {
   return (
@@ -47,6 +47,46 @@ function paginafinep() {
       </div>
 
       <SeparatorLine />
+
+      <div className="coontainerr-5">
+             <h1>CAPTAÇÃO DE RECURSOS – FINEP <br/>
+              ROTA 2030 EMPRESARIAL</h1><br/><br/>
+            <div className="texxt-containerr-5">
+            <h2>O que é?</h2>
+            <p>É um Programa Prioritário no âmbito do Programa Rota 2030</p>
+        </div>
+        <div className="texxt-containerr-5">
+            <h2>Qual o seu objetivo?</h2>
+            <p>Apoiar o desenvolvimento, por empresas brasileiras, de produtos, processos e serviços inovadores para a cadeia automotiva, por meio do financiamento não reembolsável <br/>
+            a projetos, considerados estratégicos, no âmbito do programa Rota 2030 – Mobilidade e Logística.</p>
+        </div>
+        <div className="texxt-containerr-5">
+            <h2>Modelo de operação</h2>
+            <p>financiamento não reembolsável<br/><br/>
+             fluxo contínuo<br/><br/>
+             análise por ordem de protocolo.</p>
+        </div>   
+        <div className="texxt-containerr-5">
+            <h2>Público alvo</h2>
+            <p>Empresas de todos os portes da cadeia de fornecedores do setor automotivo, incluindo máquinas agrícolas e rodoviárias auto propulsadas.</p>
+        </div>   
+        <div className="texxt-containerr-5">
+            <h2>Valor captado</h2>
+            <p>Entre R$ 200 mil e R$ 3 milhões</p>
+        </div> 
+        <div className="texxt-containerr-5">
+            <h2>Apresentação do projeto</h2>
+            <p>via FAP</p>
+        </div>
+        <div className="texxt-containerr-6">
+            <h2>Projeto de inovação</h2>
+            <p>É a realização de atividades de: pesquisa, desenvolvimento, engenharia e/ou absorção de tecnologia de produtos, processos e/ou serviços novos ou consideravelmente 
+            aprimorados.</p>
+        </div>
+      </div>
+         <div className="imagee-containerr-5">
+         <img src={logoImg1} alt="Imagem" />
+        </div>
       <MyCadastro />
       <End />
       <Myrodape />
