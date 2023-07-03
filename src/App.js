@@ -16,6 +16,7 @@ import Paginainformanus from './paginainformanus.js';
 import Paginaleidobem from './paginaleidobem.js';
 import Paginapadis from './paginapadis.js';
 import Paginarota2030 from './paginarota2030.js';
+import Paginafinep from './paginafinep.js';
 
 
 const App = () => {
@@ -39,6 +40,7 @@ const App = () => {
           <Route path="/Lei-do-bem/" element={<Paginaleidobem  />} />
           <Route path="/padis/" element={<Paginapadis  />} />
           <Route path="/rota-2030/" element={<Paginarota2030  />} />
+          <Route path="/finep" element={<Paginafinep  />} />
         </Routes>
       </div>
     </Router>

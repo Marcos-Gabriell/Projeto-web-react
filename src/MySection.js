@@ -77,7 +77,9 @@ const MySection = () => {
             <div className="image-container2">
               <img src={logoImg5} alt="Imagem" />
               <div className="image-caption">
+              <Link className="dropdown-item" to="/finep">
                 <h4 className="text-center" style={{ color: '#3399CC' }}>FINEP</h4>
+                </Link>
                 <p className="text-center text-wrap">A Financiadora de Estudos e Projetos – FINEP tem a missão de suportar financeiramente empresas em todas as etapas e dimensões do ciclo de desenvolvimento científico e tecnológico, através de recursos reembolsáveis e não reembolsáveis.</p>
               </div>
             </div>

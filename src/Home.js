@@ -1,5 +1,4 @@
 import React from 'react';
-import Navbar from './Navbar'; 
 import ImageContainer from './ImageContainer';
 import MySection from './MySection';
 import MySection2 from './MySection2';
