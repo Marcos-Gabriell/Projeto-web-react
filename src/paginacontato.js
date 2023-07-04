@@ -14,7 +14,7 @@ function paginacontato() {
       <div className="coontainer8">
         <div className="teexxt-containerrt5">
           <h2>Potencialize seus investimentos<br />em inovação.</h2>
-          <p >Entre em contato conosco e conheça as oportunidades para investir em inovação. A<br />
+          <p>Entre em contato conosco e conheça as oportunidades para investir em inovação. A<br />
             nossa equipe está à disposição para atendê-lo.</p>
           <h3>Horário de atendimento:</h3>
           <p>Segunda à Sexta 9:00 às 17:00<br /><br />
@@ -27,31 +27,27 @@ function paginacontato() {
             <FaInstagram size={30} />
           </div>
         </div>
-      </div>
-      <div className="conntainer-2">
-        <div className="formm-container-2">
-          <h3>ENVIE SUA MENSAGEM</h3>
-          <form>
-            <div className="formm-group-2">
-              <input type="text" id="name" name="name" placeholder="Digite seu nome" />
+
+        <div className="formulario-container">
+          <form action="#" method="POST">
+          <h1>ENVIE SUA MENSAGEM</h1>
+            <div className="form-group">
+              <input type="text" placeholder="Nome completo" id="nome" name="nome" required />
             </div>
-            <div className="formm-group-2">
-              <input type="email" id="email" name="email" placeholder="Digite seu email" />
+            <div className="form-group">
+              <input type="email" placeholder="E-mail" id="email" name="email" required />
             </div>
-            <div className="formm-group-2">
-              <input type="text" id="subject" name="subject" placeholder="Digite o assunto" />
+            <div className="form-group">
+              <input type="text"  placeholder="Assunto" id="assunto" name="assunto" required />
             </div>
-            <div className="formm-group-2">
-              <textarea id="message" name="message" placeholder="Digite a mensagem"></textarea>
+            <div className="form-group">
+              <textarea id="mensagem" placeholder="Messagem..." name="mensagem" rows="5" required></textarea>
             </div>
-            <br />
-            <label>
-              <input type="checkbox" />
-              Concordo em receber comunicações.<br />
-            </label>
-            <label className="validar">
-              Ao informar meus dados, eu concordo com a Política de Privacidade.
-            </label>
+            <div className="form-group checkbox-group">
+              <input type="checkbox" id="comunicacoes" name="comunicacoes" />
+              <label htmlFor="comunicacoes">Concordo em receber comunicações.</label><br/>
+              <label htmlFor="privacidade">Ao informar meus dados, eu concordo com a Política de Privacidade.</label>
+            </div>
             <button type="button">Enviar</button>
           </form>
         </div>
