@@ -51,17 +51,19 @@
 }
 
 .conntainer-2 {
+  padding: 500px;
   display: flex;
   justify-content: center;
   align-items: flex-start;
   height: 100vh;
   margin-top: -485px;
+  margin-bottom: 500px;
 }
 
 .formm-container-2 {
   max-width: 400px;
   padding: 5px;
-  background-color: #ffffff;
+  background-color: transparent;
 }
 
 h3 {
@@ -95,6 +97,7 @@ textarea {
   border-radius: 0px;
   cursor: pointer;
   border: 1px solid #083972;
+  
 }
 
 .formm-container-2 button:hover {
@@ -105,6 +108,7 @@ textarea {
 input[type="checkbox"] {
   margin-right: 30px;
 }
+
 
 /* Estilos responsivos */
 @media screen and (max-width: 768px) {

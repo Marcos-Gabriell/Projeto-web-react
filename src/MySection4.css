@@ -22,8 +22,8 @@
   margin-top: 20px;
 }
 
-.quemsomos h2 {
-  font-size: 5vw; /* ou outra unidade de medida relativa, como em */
+.quemsomos2 h2 {
+  font-size: 5vh; /* ou outra unidade de medida relativa, como em */
   font-weight: bold;
   color: #011324;
   margin: 0;
@@ -31,16 +31,17 @@
   text-align: left;
 }
 
-.quemsomos h3 {
-  font-size: 4.5vw; /* ou outra unidade de medida relativa, como em */
-  color: #2c4057;
+.quemsomos2 h3 {
+  font-weight: bold;
+  font-size: 10px;
+  color: #63819c;
   margin: 0;
   padding-bottom: 20px;
   padding: 15px;
   text-align: left;
-  
-
 }
+
+
 
 .quemsomos  .btn {
   padding: 10px 20px;
@@ -80,7 +81,7 @@
     font-size: 25px;
   }
 
-  .quemsomos h3 {
+  .quemsomos2 h3 {
     font-size: 20px;
   }
 
