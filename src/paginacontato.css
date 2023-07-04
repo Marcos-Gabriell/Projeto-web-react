@@ -90,8 +90,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height:  110vh;
+  height: 110vh;
   padding: 75px;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 .formulario-container form {
@@ -144,3 +146,8 @@
   color: aliceblue;
 }
 
+@media screen and (max-width: 768px) {
+  .formulario-container h1 {
+    font-size: 10px;
+  }
+}
