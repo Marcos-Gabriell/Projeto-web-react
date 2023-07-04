@@ -88,7 +88,9 @@ const MySection = () => {
             <div className="image-container2">
               <img src={logoImg6} alt="Imagem" />
               <div className="image-caption">
+              <Link className="dropdown-item" to="/brde/">
                 <h4 className="text-center" style={{ color: '#3399CC' }}>BRDE</h4>
+                </Link>
                 <p className="text-center text-wrap">O BRDE – Bando Regional de Desenvolvimento do Extremo Sul, através de financiamentos, promove o desenvolvimento de projetos com o objetivo de aumentar a competitividade de empresas da região sul.</p>
               </div>
             </div>
