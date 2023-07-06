@@ -1,4 +1,4 @@
-import React from 'react';
+import React  from 'react';
 import './asigplani.css';
 import logoImg from './img/mapa.png'; 
 import logoImg2 from './img/imggrande.png'; 
@@ -7,8 +7,12 @@ import MyCadastro from './MyCadastro';
 import End from './End';
 import Myrodape from './Myrodape';
 
+
+
 function asigplani() {
   return (
+
+
     <div>
       <div className='titulo-principal'>
         <h1>A SIGPLANI</h1>

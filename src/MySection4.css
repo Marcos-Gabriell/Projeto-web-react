@@ -23,7 +23,7 @@
 }
 
 .quemsomos2 h2 {
-  font-size: 5vh; /* ou outra unidade de medida relativa, como em */
+  font-size: 25px; /* ou outra unidade de medida relativa, como em */
   font-weight: bold;
   color: #011324;
   margin: 0;
@@ -34,7 +34,7 @@
 .quemsomos2 h3 {
   font-weight: bold;
   font-size: 10px;
-  color: #63819c;
+  color: #556777;
   margin: 0;
   padding-bottom: 20px;
   padding: 15px;
@@ -78,11 +78,13 @@
   }
 
   .quemsomos h2 {
-    font-size: 25px;
+    font-size: 20px;
+   
   }
 
   .quemsomos2 h3 {
     font-size: 20px;
+    text-align: left;
   }
 
  
