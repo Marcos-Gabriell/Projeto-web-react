@@ -1,4 +1,4 @@
-# Projeto construído em React para treinamneto obs
+# Projeto construído em React para treinamneto obs:
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
